@@ -19,6 +19,9 @@ sub startup {
     # rota para tela de cadastro
     $r->get('/cadastro')->to( controller => 'Cadastro', action => 'inserir' );
     $r->get('/banco')->to( controller => 'Cadastro', action => 'banco' );
+    $r->get('/cliente')->to( controller => 'Cadastro', action => 'cliente' );
+    $r->get('/fornecedor')->to( controller => 'Cadastro', action => 'fornecedor' );
+
 }
 
 1;

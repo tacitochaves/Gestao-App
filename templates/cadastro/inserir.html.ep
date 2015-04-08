@@ -5,11 +5,12 @@
     <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
     <div id="content">
         <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
-            <li class="active"><a href="/banco" data-toggle="tab">Banco</a></li>
-            <li><a href="#cliente" data-toggle="tab">Cliente</a></li>
-            <li><a href="#Fornecedor" data-toggle="tab">Fornecedor</a></li>
+            <li class="active"><a href="/banco">Banco</a></li>
+            <li><a href="/cliente">Cliente</a></li>
+            <li><a href="/fornecedor">Fornecedor</a></li>
         </ul> 
     </div>    
+
     <div id="my-tab-content" class="tab-content">
         <div class="tab-pane active" id="banco">
             <h1>Cadastramento de bancos</h1>
@@ -21,4 +22,5 @@
             <h1>Cadastramento de fornecedores</h1>
         </div>
     </div>
+
 </div>
