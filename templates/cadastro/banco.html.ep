@@ -11,7 +11,7 @@
     </ul> 
 </div>    
     <div id="my-tab-content" class="tab-content">
-        <div class="tab-pane active" id="banco">
+        <div class="active" id="banco">
             <h1>Cadastramento de bancos</h1>
         </div>
     </div>

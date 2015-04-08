@@ -5,13 +5,13 @@
     <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
     <div id="content"> 
         <ul id="tabs" class="nav nav-tabs" data-tabs="tabs"> 
-            <li class="active"><a href="/banco">Banco</a></li>      
+            <li><a href="/banco">Banco</a></li>      
             <li><a href="/cliente">Cliente</a></li>      
-            <li><a href="/fornecedor">Fornecedor</a></li>
+            <li class="active"><a href="/fornecedor">Fornecedor</a></li>
         </ul> 
     </div>    
     <div id="my-tab-content" class="tab-content">
-        <div class="tab-pane" id="fornecedor">
+        <div id="fornecedor">
             <h1>Cadastramento de fornecedores</h1>
         </div>
     </div>
