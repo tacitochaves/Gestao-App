@@ -1,0 +1,11 @@
+% layout 'principal';
+
+<div class="menu-resultado"> 
+    <i class="fa fa-file-o fa-2x"></i>                              
+    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="banco">
+            <h1>Cadastramento de bancos</h1>
+        </div>
+    </div>
+</div>

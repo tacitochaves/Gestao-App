@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="tchaves - Detiin http://tchaves.com.br">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="./js/jquery.min.js"></script>
+    <link href="./css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+    <script src="./js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="css/gerencial.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <title>Controle Gerencial de Finanças</title>
+</head>
+<body>
+    <main>  
+        <div class="caixa-conteudo">
+            <header class="cabecalho">
+                <img src="img/detiin.png" alt="Logomarca Detiin">
+                <a class="btn-empresa" href="#">Empresa&nbsp&nbsp&nbsp&nbsp<i class="fa fa-chevron-down seta-down"></i></a>
+                <a class="btn-sair" href="#">Sair</a>
+                <label>Tácito Chaves (administrador)</label>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/inicio">Início</a></li>
+                    <li><a href="/cadastro">Cadastro</a></li>
+                    <li><a href="#">Nota</a></li>
+                    <li class="direita"><a href="#">Ajustes</a></li>
+                </ul>
+            </nav>            
+            <%= content %>
+        </div>        
+    </main>
+</body>
+</html>

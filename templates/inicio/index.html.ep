@@ -1,0 +1,9 @@
+% layout 'principal';
+
+<div class="menu-resultado">
+    <i class="fa fa-home fa-2x"></i>
+    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Início</p>
+ </div>
+<aside class="inicio">
+    <p class="boas-vindas">Bem vindo ao Sistema de Controle Gerencial de Finanças!</p>
+</aside>

@@ -1,0 +1,1859 @@
+[Sat Apr  4 14:33:50 2015] [info] Listening at "http://*:3000".
+[Sat Apr  4 14:34:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:34:01 2015] [debug] GET "/".
+[Sat Apr  4 14:34:01 2015] [debug] Routing to controller "Gerencial::Example" and action "welcome".
+[Sat Apr  4 14:34:01 2015] [debug] Rendering template "example/welcome.html.ep".
+[Sat Apr  4 14:34:01 2015] [debug] Rendering template "layouts/default.html.ep".
+[Sat Apr  4 14:34:01 2015] [debug] 200 OK (0.006201s, 161.264/s).
+[Sat Apr  4 14:39:14 2015] [info] Listening at "http://*:3000".
+[Sat Apr  4 14:39:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:39:18 2015] [debug] GET "/".
+[Sat Apr  4 14:39:18 2015] [debug] Controller "Gerencial::Home" does not exist.
+[Sat Apr  4 14:39:18 2015] [debug] Template "home/index.html.ep" not found.
+[Sat Apr  4 14:39:18 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 14:39:18 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 14:39:18 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 14:39:18 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 14:39:18 2015] [debug] 404 Not Found (0.027284s, 36.652/s).
+[Sat Apr  4 14:40:09 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:40:09 2015] [debug] GET "/".
+[Sat Apr  4 14:40:09 2015] [debug] Controller "Gerencial::Home" does not exist.
+[Sat Apr  4 14:40:09 2015] [debug] Rendering template "home/index.html.ep".
+[Sat Apr  4 14:40:09 2015] [error] Global symbol "$msg" requires explicit package name at template home/index.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Sat Apr  4 14:40:09 2015] [debug] Template "exception.development.html.ep" not found.
+[Sat Apr  4 14:40:09 2015] [debug] Template "exception.html.ep" not found.
+[Sat Apr  4 14:40:09 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 14:40:09 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 14:40:09 2015] [debug] 500 Internal Server Error (0.039664s, 25.212/s).
+[Sat Apr  4 14:40:36 2015] [info] Listening at "http://*:3000".
+[Sat Apr  4 14:40:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:40:40 2015] [debug] GET "/".
+[Sat Apr  4 14:40:40 2015] [debug] Controller "Gerencial::Home" does not exist.
+[Sat Apr  4 14:40:40 2015] [debug] Rendering template "home/index.html.ep".
+[Sat Apr  4 14:40:40 2015] [error] Global symbol "$msg" requires explicit package name at template home/index.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Sat Apr  4 14:40:40 2015] [debug] Template "exception.development.html.ep" not found.
+[Sat Apr  4 14:40:40 2015] [debug] Template "exception.html.ep" not found.
+[Sat Apr  4 14:40:40 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 14:40:40 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 14:40:40 2015] [debug] 500 Internal Server Error (0.025426s, 39.330/s).
+[Sat Apr  4 14:41:33 2015] [info] Listening at "http://*:3000".
+[Sat Apr  4 14:45:54 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:45:54 2015] [debug] GET "/".
+[Sat Apr  4 14:45:54 2015] [debug] Controller "Gerencial::Home" does not exist.
+[Sat Apr  4 14:45:54 2015] [debug] Rendering template "home/index.html.ep".
+[Sat Apr  4 14:45:54 2015] [error] Global symbol "$msg" requires explicit package name at template home/index.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Sat Apr  4 14:45:54 2015] [debug] Template "exception.development.html.ep" not found.
+[Sat Apr  4 14:45:54 2015] [debug] Template "exception.html.ep" not found.
+[Sat Apr  4 14:45:54 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 14:45:54 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 14:45:54 2015] [debug] 500 Internal Server Error (0.029414s, 33.997/s).
+[Sat Apr  4 14:48:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 14:48:10 2015] [debug] GET "/".
+[Sat Apr  4 14:48:10 2015] [debug] Routing to controller "Gerencial::Controller::Home" and action "index".
+[Sat Apr  4 14:48:10 2015] [debug] Rendering template "home/index.html.ep".
+[Sat Apr  4 14:48:10 2015] [debug] Rendering template "layouts/default.html.ep".
+[Sat Apr  4 14:48:10 2015] [debug] 200 OK (0.008883s, 112.575/s).
+[Sat Apr  4 14:48:13 2015] [debug] GET "/".
+[Sat Apr  4 14:48:13 2015] [debug] Routing to controller "Gerencial::Controller::Home" and action "index".
+[Sat Apr  4 14:48:13 2015] [debug] Rendering cached template "home/index.html.ep".
+[Sat Apr  4 14:48:13 2015] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Apr  4 14:48:13 2015] [debug] 200 OK (0.001840s, 543.478/s).
+[Sat Apr  4 15:09:04 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:09:04 2015] [debug] GET "/home".
+[Sat Apr  4 15:09:04 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:09:04 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:09:04 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:09:04 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:09:04 2015] [debug] 404 Not Found (0.019179s, 52.140/s).
+[Sat Apr  4 15:10:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:10:01 2015] [debug] GET "/principal".
+[Sat Apr  4 15:10:01 2015] [debug] Class "Gerencial::Controller::Menu::Inicio" is not a controller.
+[Sat Apr  4 15:10:01 2015] [debug] Template "principal.html.ep" not found.
+[Sat Apr  4 15:10:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:10:01 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:10:01 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:10:01 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:10:01 2015] [debug] 404 Not Found (0.021857s, 45.752/s).
+[Sat Apr  4 15:14:42 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:14:42 2015] [debug] GET "/principal".
+[Sat Apr  4 15:14:42 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:14:42 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 15:14:42 2015] [error] Global symbol "$msg" requires explicit package name at template inicio/index.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Sat Apr  4 15:14:42 2015] [debug] Template "exception.development.html.ep" not found.
+[Sat Apr  4 15:14:42 2015] [debug] Template "exception.html.ep" not found.
+[Sat Apr  4 15:14:42 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:14:42 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:14:42 2015] [debug] 500 Internal Server Error (0.033252s, 30.073/s).
+[Sat Apr  4 15:15:29 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:15:29 2015] [debug] GET "/principal".
+[Sat Apr  4 15:15:29 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:15:29 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 15:15:29 2015] [debug] Rendering template "layouts/default.html.ep".
+[Sat Apr  4 15:15:29 2015] [debug] 200 OK (0.007096s, 140.924/s).
+[Sat Apr  4 15:20:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:20:40 2015] [debug] GET "/principal".
+[Sat Apr  4 15:20:40 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:20:40 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 15:20:40 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 15:20:40 2015] [debug] 200 OK (0.011200s, 89.286/s).
+[Sat Apr  4 15:20:40 2015] [debug] GET "/css/reset.css".
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:20:40 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:20:40 2015] [debug] 404 Not Found (0.024902s, 40.157/s).
+[Sat Apr  4 15:20:40 2015] [debug] GET "/css/gestao.css".
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:20:40 2015] [debug] 404 Not Found (0.005162s, 193.723/s).
+[Sat Apr  4 15:20:40 2015] [debug] GET "/css/font-awesome/css/font-awesome.min.css".
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:20:40 2015] [debug] 404 Not Found (0.004831s, 206.996/s).
+[Sat Apr  4 15:20:40 2015] [debug] GET "/img/detiin.png".
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:20:40 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:20:40 2015] [debug] 404 Not Found (0.005024s, 199.045/s).
+[Sat Apr  4 15:22:45 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:22:45 2015] [debug] GET "/principal".
+[Sat Apr  4 15:22:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:22:45 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 15:22:45 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 15:22:45 2015] [debug] 200 OK (0.008083s, 123.716/s).
+[Sat Apr  4 15:25:14 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:25:14 2015] [debug] GET "/principal".
+[Sat Apr  4 15:25:14 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:25:14 2015] [debug] Template "inicio/index.html.ep" not found.
+[Sat Apr  4 15:25:14 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:25:14 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:25:14 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:25:14 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:25:14 2015] [debug] 404 Not Found (0.034199s, 29.241/s).
+[Sat Apr  4 15:27:37 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:27:37 2015] [debug] GET "/principal".
+[Sat Apr  4 15:27:37 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 15:27:37 2015] [debug] Template "inicio/index.html.ep" not found.
+[Sat Apr  4 15:27:37 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:27:37 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:27:37 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:27:37 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:27:37 2015] [debug] 404 Not Found (0.021941s, 45.577/s).
+[Sat Apr  4 15:29:52 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 15:29:52 2015] [debug] GET "/principal".
+[Sat Apr  4 15:29:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:29:52 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:29:52 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:29:52 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:29:52 2015] [debug] 404 Not Found (0.034337s, 29.123/s).
+[Sat Apr  4 15:30:04 2015] [debug] GET "/home".
+[Sat Apr  4 15:30:04 2015] [debug] Class "Gerencial::Controller::Menu::Inicio" is not a controller.
+[Sat Apr  4 15:30:04 2015] [debug] Template "inicio/index.html.ep" not found.
+[Sat Apr  4 15:30:04 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:30:04 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:30:04 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:30:04 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:30:04 2015] [debug] 404 Not Found (0.021563s, 46.376/s).
+[Sat Apr  4 15:31:06 2015] [debug] GET "/home".
+[Sat Apr  4 15:31:06 2015] [debug] Class "Gerencial::Controller::Menu::Inicio" is not a controller.
+[Sat Apr  4 15:31:06 2015] [debug] Template "inicio/index.html.ep" not found.
+[Sat Apr  4 15:31:06 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 15:31:06 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 15:31:06 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 15:31:06 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 15:31:06 2015] [debug] 404 Not Found (0.016375s, 61.069/s).
+[Sat Apr  4 15:31:07 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 18:46:09 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 18:46:09 2015] [debug] GET "/home".
+[Sat Apr  4 18:46:09 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 18:46:09 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 18:46:09 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 18:46:09 2015] [debug] 200 OK (0.015323s, 65.261/s).
+[Sat Apr  4 19:12:29 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:12:29 2015] [debug] GET "/home".
+[Sat Apr  4 19:12:29 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 19:12:29 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 19:12:29 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 19:12:29 2015] [debug] 200 OK (0.012860s, 77.760/s).
+[Sat Apr  4 19:17:48 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:17:48 2015] [debug] GET "/home".
+[Sat Apr  4 19:17:48 2015] [debug] Controller "Gerencial::Controller::Principal" does not exist.
+[Sat Apr  4 19:17:48 2015] [debug] Template "principal/index.html.ep" not found.
+[Sat Apr  4 19:17:48 2015] [debug] Template "not_found.development.html.ep" not found.
+[Sat Apr  4 19:17:48 2015] [debug] Template "not_found.html.ep" not found.
+[Sat Apr  4 19:17:48 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Sat Apr  4 19:17:48 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Apr  4 19:17:48 2015] [debug] 404 Not Found (0.026858s, 37.233/s).
+[Sat Apr  4 19:19:42 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:19:42 2015] [debug] GET "/home".
+[Sat Apr  4 19:19:42 2015] [debug] Controller "Gerencial::Controller::Principal" does not exist.
+[Sat Apr  4 19:19:42 2015] [debug] Rendering template "principal/index.html.ep".
+[Sat Apr  4 19:19:42 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 19:19:42 2015] [debug] 200 OK (0.005674s, 176.243/s).
+[Sat Apr  4 19:21:23 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:21:23 2015] [debug] GET "/".
+[Sat Apr  4 19:21:23 2015] [debug] Controller "Gerencial::Controller::Principal" does not exist.
+[Sat Apr  4 19:21:23 2015] [debug] Rendering template "principal/index.html.ep".
+[Sat Apr  4 19:21:23 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 19:21:23 2015] [debug] 200 OK (0.004724s, 211.685/s).
+[Sat Apr  4 19:22:42 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:22:42 2015] [debug] GET "/".
+[Sat Apr  4 19:22:42 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 19:22:42 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 19:22:42 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 19:22:42 2015] [debug] 200 OK (0.011761s, 85.027/s).
+[Sat Apr  4 19:23:16 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 19:23:16 2015] [debug] GET "/inicio".
+[Sat Apr  4 19:23:16 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 19:23:16 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 19:23:16 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 19:23:16 2015] [debug] 200 OK (0.004861s, 205.719/s).
+[Sat Apr  4 19:25:56 2015] [debug] GET "/inicio".
+[Sat Apr  4 19:25:56 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 19:25:56 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Sat Apr  4 19:25:56 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 19:25:56 2015] [debug] 200 OK (0.002121s, 471.476/s).
+[Sat Apr  4 22:51:45 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:51:45 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:51:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:51:45 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 22:51:45 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:51:45 2015] [debug] 200 OK (0.009661s, 103.509/s).
+[Sat Apr  4 22:51:47 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:51:47 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:51:47 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Sat Apr  4 22:51:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:51:47 2015] [debug] 200 OK (0.002027s, 493.340/s).
+[Sat Apr  4 22:51:50 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:51:50 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:51:50 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Sat Apr  4 22:51:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:51:50 2015] [debug] 200 OK (0.002004s, 499.002/s).
+[Sat Apr  4 22:51:51 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:51:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:51:51 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:51:51 2015] [debug] Nothing has been rendered, expecting delayed response.
+[Sat Apr  4 22:51:54 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:51:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:51:54 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:51:54 2015] [debug] Nothing has been rendered, expecting delayed response.
+[Sat Apr  4 22:52:08 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:52:08 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:52:08 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:52:08 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:52:08 2015] [debug] Nothing has been rendered, expecting delayed response.
+[Sat Apr  4 22:53:13 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:53:13 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:53:13 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:53:13 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:53:13 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:53:13 2015] [debug] 200 OK (0.010996s, 90.942/s).
+[Sat Apr  4 22:53:21 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:53:21 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:53:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:53:21 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:53:21 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:53:21 2015] [debug] 200 OK (0.008269s, 120.934/s).
+[Sat Apr  4 22:53:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:53:49 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:53:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:53:49 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:53:49 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:53:49 2015] [debug] 200 OK (0.010705s, 93.414/s).
+[Sat Apr  4 22:56:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:56:10 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:56:10 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:56:10 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:56:10 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:56:10 2015] [debug] 200 OK (0.011532s, 86.715/s).
+[Sat Apr  4 22:57:37 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:57:37 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:57:37 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 22:57:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:57:37 2015] [debug] 200 OK (0.004690s, 213.220/s).
+[Sat Apr  4 22:57:41 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:57:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:57:41 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 22:57:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:57:41 2015] [debug] 200 OK (0.001459s, 685.401/s).
+[Sat Apr  4 22:57:44 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:57:44 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:57:44 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Sat Apr  4 22:57:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:57:44 2015] [debug] 200 OK (0.002058s, 485.909/s).
+[Sat Apr  4 22:57:46 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:57:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:57:46 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 22:57:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:57:46 2015] [debug] 200 OK (0.001811s, 552.181/s).
+[Sat Apr  4 22:58:15 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:58:15 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:58:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:58:15 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:58:15 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:58:15 2015] [debug] 200 OK (0.006921s, 144.488/s).
+[Sat Apr  4 22:58:32 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:58:32 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:58:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:58:32 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:58:32 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:58:32 2015] [debug] 200 OK (0.007313s, 136.743/s).
+[Sat Apr  4 22:58:40 2015] [debug] GET "/inicio".
+[Sat Apr  4 22:58:40 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 22:58:40 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 22:58:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:58:40 2015] [debug] 200 OK (0.004043s, 247.341/s).
+[Sat Apr  4 22:58:43 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:58:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:58:43 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 22:58:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:58:43 2015] [debug] 200 OK (0.001467s, 681.663/s).
+[Sat Apr  4 22:59:21 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:59:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:59:21 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 22:59:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 22:59:21 2015] [debug] 200 OK (0.001482s, 674.764/s).
+[Sat Apr  4 22:59:23 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 22:59:23 2015] [debug] GET "/cadastro".
+[Sat Apr  4 22:59:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 22:59:23 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Sat Apr  4 22:59:23 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 22:59:23 2015] [debug] 200 OK (0.012946s, 77.244/s).
+[Sat Apr  4 23:00:26 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:00:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:00:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:00:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:00:26 2015] [debug] 200 OK (0.001536s, 651.042/s).
+[Sat Apr  4 23:01:07 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:01:07 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:01:07 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:01:07 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:01:07 2015] [debug] 200 OK (0.001196s, 836.120/s).
+[Sat Apr  4 23:01:23 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:01:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:01:23 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:01:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:01:23 2015] [debug] 200 OK (0.001352s, 739.645/s).
+[Sat Apr  4 23:01:55 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:01:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:01:55 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:01:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:01:55 2015] [debug] 200 OK (0.001485s, 673.401/s).
+[Sat Apr  4 23:02:15 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:02:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:02:15 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:02:15 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:02:15 2015] [debug] 200 OK (0.001483s, 674.309/s).
+[Sat Apr  4 23:03:57 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:03:57 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Sat Apr  4 23:03:57 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Sat Apr  4 23:03:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:03:57 2015] [debug] 200 OK (0.002159s, 463.177/s).
+[Sat Apr  4 23:10:43 2015] [debug] Your secret passphrase needs to be changed!!!
+[Sat Apr  4 23:10:43 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:10:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Sat Apr  4 23:10:43 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Sat Apr  4 23:10:43 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Sat Apr  4 23:10:43 2015] [debug] 200 OK (0.010016s, 99.840/s).
+[Sat Apr  4 23:10:45 2015] [debug] GET "/inicio".
+[Sat Apr  4 23:10:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 23:10:45 2015] [debug] Rendering template "inicio/index.html.ep".
+[Sat Apr  4 23:10:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:10:45 2015] [debug] 200 OK (0.004221s, 236.911/s).
+[Sat Apr  4 23:10:49 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:10:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Sat Apr  4 23:10:49 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Sat Apr  4 23:10:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:10:49 2015] [debug] 200 OK (0.001444s, 692.521/s).
+[Sat Apr  4 23:11:02 2015] [debug] GET "/cadastro".
+[Sat Apr  4 23:11:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Sat Apr  4 23:11:02 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Sat Apr  4 23:11:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:11:02 2015] [debug] 200 OK (0.001439s, 694.927/s).
+[Sat Apr  4 23:11:05 2015] [debug] GET "/inicio".
+[Sat Apr  4 23:11:05 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Sat Apr  4 23:11:05 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Sat Apr  4 23:11:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Sat Apr  4 23:11:05 2015] [debug] 200 OK (0.002524s, 396.197/s).
+[Mon Apr  6 09:37:17 2015] [info] Listening at "http://*:3000".
+[Mon Apr  6 09:37:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:37:40 2015] [debug] GET "/home".
+[Mon Apr  6 09:37:40 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 09:37:40 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 09:37:40 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 09:37:40 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 09:37:40 2015] [debug] 404 Not Found (0.035860s, 27.886/s).
+[Mon Apr  6 09:37:46 2015] [debug] GET "/principal".
+[Mon Apr  6 09:37:46 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 09:37:46 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 09:37:46 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 09:37:46 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 09:37:46 2015] [debug] 404 Not Found (0.005714s, 175.009/s).
+[Mon Apr  6 09:38:01 2015] [debug] GET "/".
+[Mon Apr  6 09:38:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 09:38:01 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 09:38:01 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 09:38:01 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 09:38:01 2015] [debug] 404 Not Found (0.010035s, 99.651/s).
+[Mon Apr  6 09:38:44 2015] [info] Listening at "http://*:3000".
+[Mon Apr  6 09:38:45 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:38:45 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:38:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:38:45 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 09:38:45 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:38:45 2015] [debug] 200 OK (0.064768s, 15.440/s).
+[Mon Apr  6 09:38:48 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:38:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:38:48 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:38:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:38:48 2015] [debug] 200 OK (0.017451s, 57.303/s).
+[Mon Apr  6 09:48:22 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:48:22 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:48:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:48:22 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:48:22 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:48:22 2015] [debug] 200 OK (0.013637s, 73.330/s).
+[Mon Apr  6 09:48:51 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:48:51 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:48:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:48:51 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:48:51 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:48:51 2015] [debug] 200 OK (0.012873s, 77.682/s).
+[Mon Apr  6 09:50:05 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:50:05 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:50:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:50:05 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:50:05 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:50:05 2015] [debug] 200 OK (0.013322s, 75.064/s).
+[Mon Apr  6 09:50:14 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:50:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:50:14 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:50:14 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:50:14 2015] [debug] 200 OK (0.001559s, 641.437/s).
+[Mon Apr  6 09:50:14 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:52:02 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:52:02 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:52:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:52:02 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:52:02 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:52:02 2015] [debug] 200 OK (0.011461s, 87.252/s).
+[Mon Apr  6 09:52:05 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:52:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:52:05 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:52:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:52:05 2015] [debug] 200 OK (0.001509s, 662.691/s).
+[Mon Apr  6 09:52:32 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:52:32 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:52:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:52:32 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:52:32 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:52:32 2015] [debug] 200 OK (0.007916s, 126.326/s).
+[Mon Apr  6 09:53:10 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:53:10 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:53:10 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 09:53:10 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:53:10 2015] [debug] 200 OK (0.002627s, 380.662/s).
+[Mon Apr  6 09:53:38 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:53:38 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:53:38 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 09:53:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:53:38 2015] [debug] 200 OK (0.001677s, 596.303/s).
+[Mon Apr  6 09:53:40 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:53:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:53:40 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:53:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:53:40 2015] [debug] 200 OK (0.001441s, 693.963/s).
+[Mon Apr  6 09:54:33 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:54:33 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:54:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:54:33 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:54:33 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:54:33 2015] [debug] 200 OK (0.013252s, 75.460/s).
+[Mon Apr  6 09:54:44 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:54:44 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:54:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:54:44 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:54:44 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:54:44 2015] [debug] 200 OK (0.008107s, 123.350/s).
+[Mon Apr  6 09:54:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:54:53 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:54:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:54:53 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:54:53 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:54:53 2015] [debug] 200 OK (0.010902s, 91.726/s).
+[Mon Apr  6 09:55:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:55:03 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:55:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:55:03 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:55:03 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:55:03 2015] [debug] 200 OK (0.006075s, 164.609/s).
+[Mon Apr  6 09:55:14 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 09:55:14 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:55:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:55:14 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:55:14 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 09:55:14 2015] [debug] 200 OK (0.008272s, 120.890/s).
+[Mon Apr  6 09:56:28 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:56:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:56:28 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:56:28 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:56:28 2015] [debug] 200 OK (0.001564s, 639.386/s).
+[Mon Apr  6 09:57:35 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:57:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:57:35 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:57:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:35 2015] [debug] 200 OK (0.001324s, 755.287/s).
+[Mon Apr  6 09:57:38 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:57:38 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:57:38 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 09:57:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:38 2015] [debug] 200 OK (0.004228s, 236.518/s).
+[Mon Apr  6 09:57:40 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:57:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:57:40 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:57:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:40 2015] [debug] 200 OK (0.001527s, 654.879/s).
+[Mon Apr  6 09:57:52 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:57:52 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:57:52 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:57:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:52 2015] [debug] 200 OK (0.000889s, 1124.859/s).
+[Mon Apr  6 09:57:53 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:57:53 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:57:53 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 09:57:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:53 2015] [debug] 200 OK (0.001089s, 918.274/s).
+[Mon Apr  6 09:57:55 2015] [debug] GET "/cadastro".
+[Mon Apr  6 09:57:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 09:57:55 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 09:57:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:57:55 2015] [debug] 200 OK (0.001551s, 644.745/s).
+[Mon Apr  6 09:58:25 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:58:25 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:58:25 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 09:58:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:58:25 2015] [debug] 200 OK (0.002166s, 461.681/s).
+[Mon Apr  6 09:59:49 2015] [debug] GET "/inicio".
+[Mon Apr  6 09:59:49 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 09:59:49 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 09:59:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 09:59:49 2015] [debug] 200 OK (0.002872s, 348.189/s).
+[Mon Apr  6 10:00:53 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:00:53 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:00:53 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:00:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:00:53 2015] [debug] 200 OK (0.002354s, 424.809/s).
+[Mon Apr  6 10:01:18 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:01:18 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:01:18 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:01:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:01:18 2015] [debug] 200 OK (0.001908s, 524.109/s).
+[Mon Apr  6 10:01:29 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:01:29 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:01:29 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:01:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:01:29 2015] [debug] 200 OK (0.002169s, 461.042/s).
+[Mon Apr  6 10:02:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 10:02:03 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:02:03 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:02:03 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 10:02:03 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 10:02:03 2015] [debug] 200 OK (0.013848s, 72.213/s).
+[Mon Apr  6 10:03:16 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 10:03:16 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:03:16 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:03:16 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 10:03:16 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 10:03:16 2015] [debug] 200 OK (0.013583s, 73.621/s).
+[Mon Apr  6 10:03:24 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:03:24 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:03:24 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:03:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:03:24 2015] [debug] 200 OK (0.002191s, 456.413/s).
+[Mon Apr  6 10:03:42 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:03:42 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:03:42 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:03:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:03:42 2015] [debug] 200 OK (0.002165s, 461.894/s).
+[Mon Apr  6 10:03:53 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:03:53 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:03:53 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:03:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:03:53 2015] [debug] 200 OK (0.003118s, 320.718/s).
+[Mon Apr  6 10:04:28 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:04:28 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:04:28 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:04:28 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:04:28 2015] [debug] 200 OK (0.002158s, 463.392/s).
+[Mon Apr  6 10:04:37 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:04:37 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:04:37 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:04:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:04:37 2015] [debug] 200 OK (0.001954s, 511.771/s).
+[Mon Apr  6 10:04:44 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:04:44 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:04:44 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:04:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:04:44 2015] [debug] 200 OK (0.002124s, 470.810/s).
+[Mon Apr  6 10:04:51 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:04:51 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:04:51 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:04:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:04:51 2015] [debug] 200 OK (0.002277s, 439.174/s).
+[Mon Apr  6 10:05:05 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:05:05 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:05:05 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:05:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:05:05 2015] [debug] 200 OK (0.001101s, 908.265/s).
+[Mon Apr  6 10:05:06 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:05:06 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:05:06 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:05:06 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:05:06 2015] [debug] 200 OK (0.001952s, 512.295/s).
+[Mon Apr  6 10:05:08 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:05:08 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:05:08 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:05:08 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:05:08 2015] [debug] 200 OK (0.001031s, 969.932/s).
+[Mon Apr  6 10:06:21 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:06:21 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:06:21 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:06:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:21 2015] [debug] 200 OK (0.002403s, 416.146/s).
+[Mon Apr  6 10:06:38 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:06:38 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:06:38 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:06:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:38 2015] [debug] 200 OK (0.002259s, 442.674/s).
+[Mon Apr  6 10:06:42 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:06:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:06:42 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:06:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:42 2015] [debug] 200 OK (0.001153s, 867.303/s).
+[Mon Apr  6 10:06:48 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:06:48 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:06:48 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:06:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:48 2015] [debug] 200 OK (0.001101s, 908.265/s).
+[Mon Apr  6 10:06:52 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:06:52 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:06:52 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:06:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:52 2015] [debug] 200 OK (0.001059s, 944.287/s).
+[Mon Apr  6 10:06:53 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:06:53 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:06:53 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:06:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:06:53 2015] [debug] 200 OK (0.002256s, 443.262/s).
+[Mon Apr  6 10:07:06 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:07:06 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:07:06 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:07:06 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:06 2015] [debug] 200 OK (0.003324s, 300.842/s).
+[Mon Apr  6 10:07:08 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:08 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:08 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:08 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:08 2015] [debug] 200 OK (0.000816s, 1225.490/s).
+[Mon Apr  6 10:07:09 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:07:09 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:07:09 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:07:09 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:09 2015] [debug] 200 OK (0.002173s, 460.193/s).
+[Mon Apr  6 10:07:11 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:11 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:11 2015] [debug] 200 OK (0.001592s, 628.141/s).
+[Mon Apr  6 10:07:13 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:07:13 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:07:13 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:07:13 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:13 2015] [debug] 200 OK (0.001958s, 510.725/s).
+[Mon Apr  6 10:07:13 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:13 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:13 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:13 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:13 2015] [debug] 200 OK (0.000878s, 1138.952/s).
+[Mon Apr  6 10:07:15 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:15 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:15 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:15 2015] [debug] 200 OK (0.001525s, 655.738/s).
+[Mon Apr  6 10:07:25 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:25 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:25 2015] [debug] 200 OK (0.001519s, 658.328/s).
+[Mon Apr  6 10:07:27 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:07:27 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:07:27 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:07:27 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:27 2015] [debug] 200 OK (0.001155s, 865.801/s).
+[Mon Apr  6 10:07:28 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:28 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:28 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:28 2015] [debug] 200 OK (0.003235s, 309.119/s).
+[Mon Apr  6 10:07:35 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:35 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:35 2015] [debug] 200 OK (0.002240s, 446.429/s).
+[Mon Apr  6 10:07:36 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:07:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:07:36 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:07:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:36 2015] [debug] 200 OK (0.001906s, 524.659/s).
+[Mon Apr  6 10:07:39 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:07:39 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:07:39 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:07:39 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:07:39 2015] [debug] 200 OK (0.002146s, 465.983/s).
+[Mon Apr  6 10:08:08 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:08:08 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:08:08 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:08:08 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:08:08 2015] [debug] 200 OK (0.001144s, 874.126/s).
+[Mon Apr  6 10:08:10 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:08:10 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:08:10 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:08:10 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:08:10 2015] [debug] 200 OK (0.002703s, 369.959/s).
+[Mon Apr  6 10:08:41 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:08:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:08:41 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:08:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:08:41 2015] [debug] 200 OK (0.001752s, 570.776/s).
+[Mon Apr  6 10:08:45 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:08:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:08:45 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:08:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:08:45 2015] [debug] 200 OK (0.001704s, 586.854/s).
+[Mon Apr  6 10:09:02 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:09:02 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:09:02 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:09:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:09:02 2015] [debug] 200 OK (0.001714s, 583.431/s).
+[Mon Apr  6 10:09:02 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:09:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:09:02 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:09:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:09:02 2015] [debug] 200 OK (0.001549s, 645.578/s).
+[Mon Apr  6 10:09:42 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:09:42 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:09:42 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:09:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:09:42 2015] [debug] 200 OK (0.002196s, 455.373/s).
+[Mon Apr  6 10:09:44 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:09:44 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:09:44 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:09:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:09:44 2015] [debug] 200 OK (0.001114s, 897.666/s).
+[Mon Apr  6 10:10:00 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:10:00 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:10:00 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:10:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:10:00 2015] [debug] 200 OK (0.004437s, 225.378/s).
+[Mon Apr  6 10:10:02 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:10:02 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:10:02 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:10:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:10:02 2015] [debug] 200 OK (0.002221s, 450.248/s).
+[Mon Apr  6 10:10:03 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:10:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:10:03 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:10:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:10:03 2015] [debug] 200 OK (0.000712s, 1404.494/s).
+[Mon Apr  6 10:10:47 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:10:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:10:47 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:10:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:10:47 2015] [debug] 200 OK (0.001803s, 554.631/s).
+[Mon Apr  6 10:11:02 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:11:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:11:02 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:11:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:11:02 2015] [debug] 200 OK (0.001617s, 618.429/s).
+[Mon Apr  6 10:14:55 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:14:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:14:55 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:14:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:14:55 2015] [debug] 200 OK (0.001092s, 915.751/s).
+[Mon Apr  6 10:15:11 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:15:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:15:11 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:15:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:15:11 2015] [debug] 200 OK (0.000835s, 1197.605/s).
+[Mon Apr  6 10:15:16 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:15:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:15:16 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:15:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:15:16 2015] [debug] 200 OK (0.001583s, 631.712/s).
+[Mon Apr  6 10:16:03 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:16:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:16:03 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:16:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:16:03 2015] [debug] 200 OK (0.001506s, 664.011/s).
+[Mon Apr  6 10:16:47 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:16:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:16:47 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:16:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:16:47 2015] [debug] 200 OK (0.001810s, 552.486/s).
+[Mon Apr  6 10:17:36 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:17:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:17:36 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:17:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:17:36 2015] [debug] 200 OK (0.001574s, 635.324/s).
+[Mon Apr  6 10:18:12 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:18:12 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:18:12 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:18:12 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:18:12 2015] [debug] 200 OK (0.001823s, 548.546/s).
+[Mon Apr  6 10:18:44 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:18:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:18:44 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:18:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:18:44 2015] [debug] 200 OK (0.001588s, 629.723/s).
+[Mon Apr  6 10:19:23 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:19:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:19:23 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:19:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:19:23 2015] [debug] 200 OK (0.000926s, 1079.914/s).
+[Mon Apr  6 10:19:24 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:19:24 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:19:24 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:19:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:19:24 2015] [debug] 200 OK (0.002424s, 412.541/s).
+[Mon Apr  6 10:19:27 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:19:27 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:19:27 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:19:27 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:19:27 2015] [debug] 200 OK (0.000763s, 1310.616/s).
+[Mon Apr  6 10:20:23 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:20:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:20:23 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:20:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:20:23 2015] [debug] 200 OK (0.000777s, 1287.001/s).
+[Mon Apr  6 10:20:58 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:20:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:20:58 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:20:58 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:20:58 2015] [debug] 200 OK (0.001755s, 569.801/s).
+[Mon Apr  6 10:21:41 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:21:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:21:41 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:21:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:21:41 2015] [debug] 200 OK (0.001532s, 652.742/s).
+[Mon Apr  6 10:21:41 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:21:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:21:41 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:21:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:21:41 2015] [debug] 200 OK (0.001139s, 877.963/s).
+[Mon Apr  6 10:21:43 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:21:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:21:43 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:21:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:21:43 2015] [debug] 200 OK (0.001770s, 564.972/s).
+[Mon Apr  6 10:21:44 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:21:44 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:21:44 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:21:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:21:44 2015] [debug] 200 OK (0.002534s, 394.633/s).
+[Mon Apr  6 10:21:59 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:21:59 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:21:59 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:21:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:21:59 2015] [debug] 200 OK (0.002174s, 459.982/s).
+[Mon Apr  6 10:23:36 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:23:36 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:23:36 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:23:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:23:36 2015] [debug] 200 OK (0.001558s, 641.849/s).
+[Mon Apr  6 10:24:13 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:24:13 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:24:13 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:24:13 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:24:13 2015] [debug] 200 OK (0.002207s, 453.104/s).
+[Mon Apr  6 10:24:31 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:24:31 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:24:31 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:24:31 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:24:31 2015] [debug] 200 OK (0.002209s, 452.694/s).
+[Mon Apr  6 10:24:41 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:24:41 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:24:41 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:24:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:24:41 2015] [debug] 200 OK (0.001969s, 507.872/s).
+[Mon Apr  6 10:24:48 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:24:48 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:24:48 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:24:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:24:48 2015] [debug] 200 OK (0.002688s, 372.024/s).
+[Mon Apr  6 10:25:09 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:25:09 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:25:09 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:25:09 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:25:09 2015] [debug] 200 OK (0.002657s, 376.364/s).
+[Mon Apr  6 10:27:36 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:27:36 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:27:36 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:27:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:27:36 2015] [debug] 200 OK (0.002265s, 441.501/s).
+[Mon Apr  6 10:29:21 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:29:21 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:29:21 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:29:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:21 2015] [debug] 200 OK (0.002183s, 458.085/s).
+[Mon Apr  6 10:29:23 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:29:23 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:29:23 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:29:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:23 2015] [debug] 200 OK (0.001092s, 915.751/s).
+[Mon Apr  6 10:29:25 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:29:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:29:25 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:29:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:25 2015] [debug] 200 OK (0.001617s, 618.429/s).
+[Mon Apr  6 10:29:38 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:29:38 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:29:38 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:29:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:38 2015] [debug] 200 OK (0.003692s, 270.856/s).
+[Mon Apr  6 10:29:40 2015] [debug] GET "/inicio".
+[Mon Apr  6 10:29:40 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 10:29:40 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 10:29:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:40 2015] [debug] 200 OK (0.002209s, 452.694/s).
+[Mon Apr  6 10:29:47 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:29:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:29:47 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:29:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:29:47 2015] [debug] 200 OK (0.001610s, 621.118/s).
+[Mon Apr  6 10:30:22 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:30:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:30:22 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:30:22 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 10:30:22 2015] [debug] 200 OK (0.000777s, 1287.001/s).
+[Mon Apr  6 10:42:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 10:42:01 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:42:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:42:01 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:42:01 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 10:42:01 2015] [debug] 200 OK (0.010497s, 95.265/s).
+[Mon Apr  6 10:56:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 10:56:49 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:56:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:56:49 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:56:49 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 10:56:49 2015] [debug] 200 OK (0.015048s, 66.454/s).
+[Mon Apr  6 10:59:45 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 10:59:45 2015] [debug] GET "/cadastro".
+[Mon Apr  6 10:59:45 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 10:59:45 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 10:59:46 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 10:59:46 2015] [debug] 200 OK (0.010543s, 94.850/s).
+[Mon Apr  6 11:25:53 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:25:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:25:53 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:25:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:25:53 2015] [debug] 200 OK (0.002044s, 489.237/s).
+[Mon Apr  6 11:28:11 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:28:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:28:11 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:28:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:28:11 2015] [debug] 200 OK (0.002027s, 493.340/s).
+[Mon Apr  6 11:45:01 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:45:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:45:01 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:45:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:45:01 2015] [debug] 200 OK (0.002593s, 385.654/s).
+[Mon Apr  6 11:50:42 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:50:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:50:42 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:50:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:50:42 2015] [debug] 200 OK (0.001000s, 1000.000/s).
+[Mon Apr  6 11:51:32 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:51:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:51:32 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:51:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:51:32 2015] [debug] 200 OK (0.001485s, 673.401/s).
+[Mon Apr  6 11:51:37 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:51:37 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:51:37 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:51:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:51:37 2015] [debug] 200 OK (0.001470s, 680.272/s).
+[Mon Apr  6 11:51:48 2015] [debug] GET "/inicio".
+[Mon Apr  6 11:51:48 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 11:51:48 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 11:51:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:51:48 2015] [debug] 200 OK (0.004371s, 228.781/s).
+[Mon Apr  6 11:51:49 2015] [debug] GET "/cadastro".
+[Mon Apr  6 11:51:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 11:51:49 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 11:51:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 11:51:49 2015] [debug] 200 OK (0.001449s, 690.131/s).
+[Mon Apr  6 12:09:03 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:09:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:09:03 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:09:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:09:03 2015] [debug] 200 OK (0.001949s, 513.084/s).
+[Mon Apr  6 12:10:10 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:10:10 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:10:10 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:10:10 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:10:10 2015] [debug] 200 OK (0.002977s, 335.909/s).
+[Mon Apr  6 12:10:34 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:10:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:10:34 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:10:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:10:34 2015] [debug] 200 OK (0.002634s, 379.651/s).
+[Mon Apr  6 12:11:09 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:11:09 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:11:09 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:11:09 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:11:09 2015] [debug] 200 OK (0.001968s, 508.130/s).
+[Mon Apr  6 12:13:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:13:03 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:13:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:13:03 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:13:03 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:13:03 2015] [debug] 200 OK (0.014155s, 70.646/s).
+[Mon Apr  6 12:14:58 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:14:58 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:14:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:14:58 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:14:58 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:14:58 2015] [debug] 200 OK (0.014561s, 68.677/s).
+[Mon Apr  6 12:16:06 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:16:06 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:16:06 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:16:06 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:16:06 2015] [debug] 200 OK (0.001685s, 593.472/s).
+[Mon Apr  6 12:16:23 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:16:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:16:23 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:16:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:16:23 2015] [debug] 200 OK (0.001334s, 749.625/s).
+[Mon Apr  6 12:16:43 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:16:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:16:43 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:16:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:16:43 2015] [debug] 200 OK (0.000829s, 1206.273/s).
+[Mon Apr  6 12:17:07 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:17:07 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:17:07 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:17:07 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:17:07 2015] [debug] 200 OK (0.002117s, 472.367/s).
+[Mon Apr  6 12:17:17 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:17:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:17:17 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:17:17 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:17:17 2015] [debug] 200 OK (0.001647s, 607.165/s).
+[Mon Apr  6 12:17:34 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:17:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:17:34 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:17:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:17:34 2015] [debug] 200 OK (0.001635s, 611.621/s).
+[Mon Apr  6 12:17:50 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:17:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:17:50 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:17:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:17:50 2015] [debug] 200 OK (0.002834s, 352.858/s).
+[Mon Apr  6 12:18:00 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:18:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:18:00 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:18:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:18:00 2015] [debug] 200 OK (0.001622s, 616.523/s).
+[Mon Apr  6 12:19:07 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:19:07 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:19:07 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:19:07 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:19:07 2015] [debug] 200 OK (0.002483s, 402.739/s).
+[Mon Apr  6 12:19:23 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:19:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:19:23 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:19:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:19:23 2015] [debug] 200 OK (0.002731s, 366.166/s).
+[Mon Apr  6 12:20:20 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:20:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:20:20 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:20:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:20:20 2015] [debug] 200 OK (0.002687s, 372.162/s).
+[Mon Apr  6 12:24:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:24:53 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:24:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:24:53 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:24:53 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:24:53 2015] [debug] 200 OK (0.018860s, 53.022/s).
+[Mon Apr  6 12:25:32 2015] [debug] GET "/inicio".
+[Mon Apr  6 12:25:32 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 12:25:32 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 12:25:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:25:32 2015] [debug] 200 OK (0.001955s, 511.509/s).
+[Mon Apr  6 12:25:34 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:25:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:25:34 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:25:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:25:34 2015] [debug] 200 OK (0.000781s, 1280.410/s).
+[Mon Apr  6 12:25:36 2015] [debug] GET "/inicio".
+[Mon Apr  6 12:25:36 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 12:25:36 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 12:25:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:25:36 2015] [debug] 200 OK (0.002342s, 426.985/s).
+[Mon Apr  6 12:25:39 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:25:39 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:25:39 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:25:39 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:25:39 2015] [debug] 200 OK (0.001491s, 670.691/s).
+[Mon Apr  6 12:25:42 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:25:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:25:42 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:25:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:25:42 2015] [debug] 200 OK (0.003027s, 330.360/s).
+[Mon Apr  6 12:26:48 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:26:48 2015] [debug] GET "/banco".
+[Mon Apr  6 12:26:48 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:48 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:48 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:48 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:48 2015] [debug] 404 Not Found (0.022248s, 44.948/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:26:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:26:58 2015] [debug] 200 OK (0.003807s, 262.674/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.005923s, 168.833/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.005404s, 185.048/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.005071s, 197.200/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.005285s, 189.215/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.008789s, 113.779/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.005383s, 185.770/s).
+[Mon Apr  6 12:26:58 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:26:58 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:26:58 2015] [debug] 404 Not Found (0.006059s, 165.044/s).
+[Mon Apr  6 12:27:36 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:27:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:27:36 2015] [debug] 200 OK (0.012508s, 79.949/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.024622s, 40.614/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.005584s, 179.083/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.005290s, 189.036/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.013940s, 71.736/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.006523s, 153.304/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.007578s, 131.961/s).
+[Mon Apr  6 12:27:36 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:27:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:27:36 2015] [debug] 404 Not Found (0.005549s, 180.213/s).
+[Mon Apr  6 12:27:45 2015] [debug] GET "/inicio".
+[Mon Apr  6 12:27:45 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 12:27:45 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 12:27:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:27:45 2015] [debug] 200 OK (0.002434s, 410.846/s).
+[Mon Apr  6 12:28:35 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:28:35 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:28:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:28:35 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:28:35 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:28:35 2015] [debug] 200 OK (0.012042s, 83.043/s).
+[Mon Apr  6 12:28:35 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:35 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:35 2015] [debug] 404 Not Found (0.027462s, 36.414/s).
+[Mon Apr  6 12:28:35 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:35 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:35 2015] [debug] 404 Not Found (0.005371s, 186.185/s).
+[Mon Apr  6 12:28:35 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:35 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:35 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:35 2015] [debug] 404 Not Found (0.005115s, 195.503/s).
+[Mon Apr  6 12:28:36 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:28:36 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:36 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:36 2015] [debug] 404 Not Found (0.020695s, 48.321/s).
+[Mon Apr  6 12:28:36 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:36 2015] [debug] 404 Not Found (0.005583s, 179.115/s).
+[Mon Apr  6 12:28:36 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:28:36 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:28:36 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:28:36 2015] [debug] 404 Not Found (0.005144s, 194.401/s).
+[Mon Apr  6 12:29:19 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:29:19 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:29:19 2015] [debug] 200 OK (0.011733s, 85.230/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.019638s, 50.922/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.005278s, 189.466/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.004717s, 211.999/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.005538s, 180.571/s).
+[Mon Apr  6 12:29:19 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.023015s, 43.450/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.006006s, 166.500/s).
+[Mon Apr  6 12:29:19 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:29:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:29:19 2015] [debug] 404 Not Found (0.007689s, 130.056/s).
+[Mon Apr  6 12:29:26 2015] [debug] GET "/banco".
+[Mon Apr  6 12:29:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:29:26 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:29:26 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:29:26 2015] [debug] 200 OK (0.003426s, 291.886/s).
+[Mon Apr  6 12:30:00 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:30:00 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:30:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:30:00 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:30:00 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:30:00 2015] [debug] 200 OK (0.014933s, 66.966/s).
+[Mon Apr  6 12:30:00 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:00 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:00 2015] [debug] 404 Not Found (0.022753s, 43.950/s).
+[Mon Apr  6 12:30:00 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:00 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:00 2015] [debug] 404 Not Found (0.005559s, 179.888/s).
+[Mon Apr  6 12:30:00 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:00 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:00 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:00 2015] [debug] 404 Not Found (0.004877s, 205.044/s).
+[Mon Apr  6 12:30:01 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:01 2015] [debug] 404 Not Found (0.013256s, 75.438/s).
+[Mon Apr  6 12:30:01 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:01 2015] [debug] 404 Not Found (0.005559s, 179.888/s).
+[Mon Apr  6 12:30:01 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:01 2015] [debug] 404 Not Found (0.005357s, 186.672/s).
+[Mon Apr  6 12:30:01 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:01 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:01 2015] [debug] 404 Not Found (0.005450s, 183.486/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/banco".
+[Mon Apr  6 12:30:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:30:03 2015] [debug] 200 OK (0.000698s, 1432.665/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/css/reset.css".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.009332s, 107.158/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.009187s, 108.849/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.008963s, 111.570/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.005674s, 176.243/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.005671s, 176.336/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.005348s, 186.986/s).
+[Mon Apr  6 12:30:03 2015] [debug] GET "/cadastro/img/detiin.png".
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:03 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:03 2015] [debug] 404 Not Found (0.005687s, 175.840/s).
+[Mon Apr  6 12:30:21 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/banco".
+[Mon Apr  6 12:30:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:30:21 2015] [debug] 200 OK (0.008707s, 114.850/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/css/reset.css".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.025439s, 39.310/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/css/gerencial.css".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.005516s, 181.291/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.005036s, 198.570/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/img/detiin.png".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.005797s, 172.503/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/css/gerencial.css".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.006457s, 154.871/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.008078s, 123.793/s).
+[Mon Apr  6 12:30:21 2015] [debug] GET "/cad/img/detiin.png".
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:21 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:21 2015] [debug] 404 Not Found (0.005558s, 179.921/s).
+[Mon Apr  6 12:30:27 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:30:27 2015] [debug] GET "/cad/banco".
+[Mon Apr  6 12:30:27 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:30:27 2015] [debug] 200 OK (0.007342s, 136.203/s).
+[Mon Apr  6 12:30:27 2015] [debug] GET "/cad/css/reset.css".
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:27 2015] [debug] 404 Not Found (0.020091s, 49.774/s).
+[Mon Apr  6 12:30:27 2015] [debug] GET "/cad/css/gerencial.css".
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:27 2015] [debug] 404 Not Found (0.005456s, 183.284/s).
+[Mon Apr  6 12:30:27 2015] [debug] GET "/cad/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:27 2015] [debug] 404 Not Found (0.004747s, 210.659/s).
+[Mon Apr  6 12:30:27 2015] [debug] GET "/cad/img/detiin.png".
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:27 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:28 2015] [debug] 404 Not Found (0.013086s, 76.418/s).
+[Mon Apr  6 12:30:28 2015] [debug] GET "/cad/css/gerencial.css".
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:28 2015] [debug] 404 Not Found (0.005791s, 172.682/s).
+[Mon Apr  6 12:30:28 2015] [debug] GET "/cad/css/font-awesome/css/font-awesome.min.css".
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:28 2015] [debug] 404 Not Found (0.005294s, 188.893/s).
+[Mon Apr  6 12:30:28 2015] [debug] GET "/cad/img/detiin.png".
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:30:28 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:30:28 2015] [debug] 404 Not Found (0.005439s, 183.857/s).
+[Mon Apr  6 12:34:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:34:10 2015] [debug] GET "/cad/banco".
+[Mon Apr  6 12:34:10 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 12:34:10 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 12:34:10 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 12:34:10 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 12:34:10 2015] [debug] 404 Not Found (0.034521s, 28.968/s).
+[Mon Apr  6 12:34:15 2015] [debug] GET "/banco".
+[Mon Apr  6 12:34:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 12:34:15 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 12:34:15 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:34:15 2015] [debug] 200 OK (0.003440s, 290.698/s).
+[Mon Apr  6 12:34:18 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:34:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:34:18 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:34:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:34:18 2015] [debug] 200 OK (0.003266s, 306.185/s).
+[Mon Apr  6 12:34:19 2015] [debug] GET "/inicio".
+[Mon Apr  6 12:34:19 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 12:34:19 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 12:34:19 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:34:19 2015] [debug] 200 OK (0.005177s, 193.162/s).
+[Mon Apr  6 12:34:20 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:34:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:34:20 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:34:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:34:20 2015] [debug] 200 OK (0.001045s, 956.938/s).
+[Mon Apr  6 12:34:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:34:49 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:34:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:34:49 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:34:49 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:34:49 2015] [debug] 200 OK (0.005908s, 169.262/s).
+[Mon Apr  6 12:35:01 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:35:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:35:01 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:35:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:35:01 2015] [debug] 200 OK (0.001656s, 603.865/s).
+[Mon Apr  6 12:39:26 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:39:26 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:39:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:39:26 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:39:26 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:39:26 2015] [debug] 200 OK (0.008395s, 119.119/s).
+[Mon Apr  6 12:40:38 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:40:38 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:40:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:40:38 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:40:38 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:40:38 2015] [debug] 200 OK (0.015000s, 66.667/s).
+[Mon Apr  6 12:41:17 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:41:17 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:41:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:41:17 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:41:17 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:41:17 2015] [debug] 200 OK (0.014372s, 69.580/s).
+[Mon Apr  6 12:41:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:41:21 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:41:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:41:21 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:41:21 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:41:21 2015] [debug] 200 OK (0.012941s, 77.274/s).
+[Mon Apr  6 12:41:37 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:41:37 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:41:37 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:41:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 12:41:37 2015] [debug] 200 OK (0.002158s, 463.392/s).
+[Mon Apr  6 12:41:38 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:41:54 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:41:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:41:54 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:41:54 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:41:54 2015] [debug] 200 OK (0.015274s, 65.471/s).
+[Mon Apr  6 12:45:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 12:45:01 2015] [debug] GET "/cadastro".
+[Mon Apr  6 12:45:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 12:45:01 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 12:45:01 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 12:45:01 2015] [debug] 200 OK (0.010347s, 96.646/s).
+[Mon Apr  6 13:32:40 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 13:32:40 2015] [debug] GET "/cadastro".
+[Mon Apr  6 13:32:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 13:32:40 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 13:32:40 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 13:32:40 2015] [debug] 200 OK (0.013401s, 74.621/s).
+[Mon Apr  6 14:30:16 2015] [debug] GET "/cadastro".
+[Mon Apr  6 14:30:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 14:30:16 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 14:30:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 14:30:16 2015] [debug] 200 OK (0.001500s, 666.667/s).
+[Mon Apr  6 14:34:54 2015] [debug] GET "/cadastro".
+[Mon Apr  6 14:34:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 14:34:54 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 14:34:54 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 14:34:54 2015] [debug] 200 OK (0.002903s, 344.471/s).
+[Mon Apr  6 15:15:31 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 15:15:31 2015] [debug] GET "/cadastro".
+[Mon Apr  6 15:15:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 15:15:31 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 15:15:31 2015] [error] Global symbol "$url_for" requires explicit package name at template cadastro/inserir.html.ep line 8.
+syntax error at template cadastro/inserir.html.ep line 8, near "$url_for '/banco'"
+3: <div class="menu-resultado">
+4:     <i class="fa fa-file-o fa-2x"></i>
+5:     <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
+6:     <div id="content">
+7:         <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+8:             <li class="active"><a href="<%= $url_for '/banco' %>" data-toggle="tab">Banco</a></li>
+9:             <li><a href="#cliente" data-toggle="tab">Cliente</a></li>
+10:             <li><a href="#Fornecedor" data-toggle="tab">Fornecedor</a></li>
+11:         </ul> 
+12:     </div>    
+13:     <div id="my-tab-content" class="tab-content">
+
+[Mon Apr  6 15:15:31 2015] [debug] Template "exception.development.html.ep" not found.
+[Mon Apr  6 15:15:31 2015] [debug] Template "exception.html.ep" not found.
+[Mon Apr  6 15:15:31 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 15:15:31 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 15:15:31 2015] [debug] 500 Internal Server Error (0.082173s, 12.169/s).
+[Mon Apr  6 15:15:38 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 15:15:38 2015] [debug] GET "/cadastro".
+[Mon Apr  6 15:15:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 15:15:38 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 15:15:38 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 15:15:38 2015] [debug] 200 OK (0.014706s, 67.999/s).
+[Mon Apr  6 15:26:14 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 15:26:14 2015] [debug] GET "/cadastro".
+[Mon Apr  6 15:26:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 15:26:14 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 15:26:14 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 15:26:14 2015] [debug] 200 OK (0.012553s, 79.662/s).
+[Mon Apr  6 15:26:19 2015] [debug] GET "/%3Ca%20href=".
+[Mon Apr  6 15:26:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Mon Apr  6 15:26:19 2015] [debug] Template "not_found.html.ep" not found.
+[Mon Apr  6 15:26:19 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Mon Apr  6 15:26:19 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Apr  6 15:26:19 2015] [debug] 404 Not Found (0.021872s, 45.721/s).
+[Mon Apr  6 15:26:39 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 15:26:39 2015] [debug] GET "/cadastro".
+[Mon Apr  6 15:26:39 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 15:26:39 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 15:26:39 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 15:26:39 2015] [debug] 200 OK (0.014797s, 67.581/s).
+[Mon Apr  6 17:28:33 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 17:28:33 2015] [debug] GET "/banco".
+[Mon Apr  6 17:28:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Mon Apr  6 17:28:33 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Mon Apr  6 17:28:33 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 17:28:33 2015] [debug] 200 OK (0.029149s, 34.306/s).
+[Mon Apr  6 17:28:43 2015] [debug] GET "/cadastro".
+[Mon Apr  6 17:28:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 17:28:43 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 17:28:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:28:43 2015] [debug] 200 OK (0.006069s, 164.772/s).
+[Mon Apr  6 17:28:57 2015] [debug] GET "/inicio".
+[Mon Apr  6 17:28:57 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 17:28:57 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 17:28:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:28:57 2015] [debug] 200 OK (0.002311s, 432.713/s).
+[Mon Apr  6 17:28:59 2015] [debug] GET "/cadastro".
+[Mon Apr  6 17:28:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 17:28:59 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 17:28:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:28:59 2015] [debug] 200 OK (0.000952s, 1050.420/s).
+[Mon Apr  6 17:40:48 2015] [info] Listening at "http://*:3000".
+[Mon Apr  6 17:40:55 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 17:40:55 2015] [debug] GET "/inicio".
+[Mon Apr  6 17:40:55 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 17:40:55 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 17:40:55 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 17:40:55 2015] [debug] 200 OK (0.005797s, 172.503/s).
+[Mon Apr  6 17:40:56 2015] [debug] GET "/cadastro".
+[Mon Apr  6 17:40:57 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 17:40:57 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 17:40:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:40:57 2015] [debug] 200 OK (0.005087s, 196.580/s).
+[Mon Apr  6 17:40:59 2015] [debug] GET "/cadastro".
+[Mon Apr  6 17:40:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 17:40:59 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 17:40:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:40:59 2015] [debug] 200 OK (0.001484s, 673.854/s).
+[Mon Apr  6 17:41:41 2015] [debug] GET "/cadastro".
+[Mon Apr  6 17:41:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 17:41:41 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 17:41:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 17:41:41 2015] [debug] 200 OK (0.001526s, 655.308/s).
+[Mon Apr  6 17:41:42 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 22:26:24 2015] [info] Listening at "http://*:3000".
+[Mon Apr  6 22:26:27 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 22:26:27 2015] [debug] GET "/inicio".
+[Mon Apr  6 22:26:27 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 22:26:27 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 22:26:27 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 22:26:27 2015] [debug] 200 OK (0.080371s, 12.442/s).
+[Mon Apr  6 22:30:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Mon Apr  6 22:30:49 2015] [debug] GET "/inicio".
+[Mon Apr  6 22:30:49 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 22:30:49 2015] [debug] Rendering template "inicio/index.html.ep".
+[Mon Apr  6 22:30:49 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Mon Apr  6 22:30:49 2015] [debug] 200 OK (0.009327s, 107.216/s).
+[Mon Apr  6 22:30:55 2015] [debug] GET "/cadastro".
+[Mon Apr  6 22:30:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 22:30:55 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Mon Apr  6 22:30:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 22:30:55 2015] [debug] 200 OK (0.108288s, 9.235/s).
+[Mon Apr  6 22:31:29 2015] [debug] GET "/inicio".
+[Mon Apr  6 22:31:29 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 22:31:29 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 22:31:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 22:31:29 2015] [debug] 200 OK (0.002144s, 466.418/s).
+[Mon Apr  6 22:31:30 2015] [debug] GET "/cadastro".
+[Mon Apr  6 22:31:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 22:31:30 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 22:31:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 22:31:30 2015] [debug] 200 OK (0.001529s, 654.022/s).
+[Mon Apr  6 22:31:33 2015] [debug] GET "/inicio".
+[Mon Apr  6 22:31:33 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Mon Apr  6 22:31:33 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Mon Apr  6 22:31:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 22:31:33 2015] [debug] 200 OK (0.002151s, 464.900/s).
+[Mon Apr  6 22:31:35 2015] [debug] GET "/cadastro".
+[Mon Apr  6 22:31:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Mon Apr  6 22:31:35 2015] [debug] Rendering cached template "cadastro/inserir.html.ep".
+[Mon Apr  6 22:31:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Mon Apr  6 22:31:35 2015] [debug] 200 OK (0.001493s, 669.792/s).
+[Tue Apr  7 17:48:10 2015] [info] Listening at "http://*:3000".
+[Tue Apr  7 17:48:15 2015] [debug] Your secret passphrase needs to be changed!!!
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/".
+[Tue Apr  7 17:48:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Tue Apr  7 17:48:15 2015] [debug] 200 OK (0.079332s, 12.605/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/css/reset.css".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.025255s, 39.596/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/js/jquery.min.js".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.005271s, 189.717/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.004689s, 213.265/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.004890s, 204.499/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.005909s, 169.233/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.005695s, 175.593/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.010889s, 91.836/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.008406s, 118.963/s).
+[Tue Apr  7 17:48:15 2015] [debug] GET "/cadastro/img/detiin.png".
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:15 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:15 2015] [debug] 404 Not Found (0.007933s, 126.056/s).
+[Tue Apr  7 17:48:16 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Tue Apr  7 17:48:16 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:16 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:16 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:16 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:16 2015] [debug] 404 Not Found (0.012180s, 82.102/s).
+[Tue Apr  7 17:48:16 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Tue Apr  7 17:48:16 2015] [debug] Template "not_found.development.html.ep" not found.
+[Tue Apr  7 17:48:16 2015] [debug] Template "not_found.html.ep" not found.
+[Tue Apr  7 17:48:16 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Tue Apr  7 17:48:16 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Tue Apr  7 17:48:16 2015] [debug] 404 Not Found (0.010472s, 95.493/s).
+[Wed Apr  8 10:21:53 2015] [info] Listening at "http://*:3000".
+[Wed Apr  8 10:22:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 10:22:03 2015] [debug] GET "/inicio".
+[Wed Apr  8 10:22:03 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 10:22:03 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 10:22:03 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 10:22:03 2015] [debug] 200 OK (0.115534s, 8.655/s).
+[Wed Apr  8 10:22:05 2015] [debug] GET "/inicio".
+[Wed Apr  8 10:22:05 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 10:22:05 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Wed Apr  8 10:22:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 10:22:05 2015] [debug] 200 OK (0.002259s, 442.674/s).
+[Wed Apr  8 10:22:06 2015] [debug] GET "/cadastro".
+[Wed Apr  8 10:22:06 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "inserir".
+[Wed Apr  8 10:22:06 2015] [debug] Rendering template "cadastro/inserir.html.ep".
+[Wed Apr  8 10:22:06 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 10:22:06 2015] [debug] 200 OK (0.004919s, 203.293/s).
