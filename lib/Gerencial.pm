@@ -8,20 +8,16 @@ sub startup {
     # Router
     my $r = $self->routes;
 
-    $r->namespaces( ["Gerencial::Controller"], ["Gerencial::Controller::Menu"] );
+    $r->namespaces( ["Gerencial::Controller"] );
 
     # Normal route to controller
-    #$r->get('/')->to('home#index');
+    $r->get('/')->to('home#index');
   
     # rota para tela principal
     $r->get('/inicio')->to( controller => 'Inicio', action => 'index' );
 
     # rota para tela de cadastro
-    $r->get('/cadastro')->to( controller => 'Cadastro', action => 'inserir' );
-    $r->get('/banco')->to( controller => 'Cadastro', action => 'banco' );
-    $r->get('/cliente')->to( controller => 'Cadastro', action => 'cliente' );
-    $r->get('/fornecedor')->to( controller => 'Cadastro', action => 'fornecedor' );
-
+    $r->get('/cadastro/:action')->to( controller => 'Cadastro' );
 }
 
 1;

@@ -2,17 +2,22 @@
 
 <div class="menu-resultado"> 
     <i class="fa fa-file-o fa-2x"></i>                              
-    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
+    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro <i class="fa fa-angle-right"></i> Banco</p>
     <div id="content"> 
     <ul id="tabs" class="nav nav-tabs" data-tabs="tabs"> 
-        <li class="active"><a href="/banco">Banco</a></li>      
-        <li><a href="/cliente">Cliente</a></li>      
-        <li><a href="/fornecedor">Fornecedor</a></li>
+        <li class="active"><a href="/cadastro/banco">Banco</a></li>      
+        <li><a href="/cadastro/cliente">Cliente</a></li>      
+        <li><a href="/cadastro/fornecedor">Fornecedor</a></li>
     </ul> 
 </div>    
-    <div id="my-tab-content" class="tab-content">
-        <div class="active" id="banco">
-            <h1>Cadastramento de bancos</h1>
+    <div id="my-tab-content"class="tab-content">
+        <div class="aba-titulo">
+            <label>Cadastramento de bancos</label>
+        </div>
+        <div class="aba-conteudo">
+            <form name="frm-banco" id="frm-banco" method="POST" action="">
+                <label>Nome</label>
+            </form>
         </div>
     </div>
 </div>

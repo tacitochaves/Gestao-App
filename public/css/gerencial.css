@@ -4,6 +4,10 @@ main {
     box-sizing: border-box;
     background-color: #B22D00;
 }
+label {
+    margin: 0;
+    cursor: default;
+}
 .caixa-conteudo {
     width: 70%;
     margin-left: auto;
@@ -53,7 +57,7 @@ main {
     border: 1px solid #D93600;
     margin-top: 12px;
 }
-.btn-empresa:hover, .btn-sair:hover, .btn-empresa:link, .btn-empresa:visited, .btn-empresa:active {
+.btn-empresa:hover, .btn-sair:hover, .btn-empresa:link, .btn-sair:link, .btn-empresa:visited, .btn-sair:visited, .btn-empresa:active, .btn-sair:active {
     text-decoration: none;
     color: white;
 }
@@ -135,7 +139,7 @@ main {
 .fa-angle-right {
     color: #162141;
 }
-/*Configuração para as abas*/
+/*Início - Configuração para as abas*/
 #tabs {
     float: right;
     font-family: Verdana, Arial;
@@ -148,11 +152,40 @@ main {
 .nav-tabs>li,.nav-pills>li {
     float:right;
 }
-#tabs li a{
+#tabs li a {
     margin-right: 0;
 }
 #my-tab-content {
     clear: both;
     border: 1px solid #DDD;
     border-top-color: transparent;
+}
+/*Fim - Configuração para abas*/
+.aba-titulo {
+    background-color: #FCE3DB;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 98%;
+    margin: 8px auto;
+    border: 1px solid #B22D00;
+}
+.aba-titulo label {
+    color: #B22D00;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 1px;
+    font-size: 13px;
+    font-family: Verdana, Arial;
+    position: relative;
+}
+.aba-conteudo {
+    padding: 0px 8px 0 8px;
+    box-sizing: border-box;
+    width: 98%;
+    margin: 8px auto;
+    border: 1px solid #B22D00;
+    font-family: Verdana, Arial;
+}
+.aba-conteudo label {
+    font-size: 11px;
 }

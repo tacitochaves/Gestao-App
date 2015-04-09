@@ -2,17 +2,17 @@
 
 <div class="menu-resultado"> 
     <i class="fa fa-file-o fa-2x"></i>                              
-    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
+    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro <i class="fa fa-angle-right"></i> Fornecedor</p>
     <div id="content"> 
         <ul id="tabs" class="nav nav-tabs" data-tabs="tabs"> 
-            <li><a href="/banco">Banco</a></li>      
-            <li><a href="/cliente">Cliente</a></li>      
-            <li class="active"><a href="/fornecedor">Fornecedor</a></li>
+            <li><a href="/cadastro/banco">Banco</a></li>      
+            <li><a href="/cadastro/cliente">Cliente</a></li>      
+            <li class="active"><a href="/cadastro/fornecedor">Fornecedor</a></li>
         </ul> 
     </div>    
     <div id="my-tab-content" class="tab-content">
-        <div id="fornecedor">
-            <h1>Cadastramento de fornecedores</h1>
+        <div class="aba-titulo">
+            <label>Cadastramento de fornecedores</label>
         </div>
     </div>
 </div>

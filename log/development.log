@@ -4322,3 +4322,1962 @@ syntax error at template cadastro/inserir.html.ep line 8, near "$url_for '/banco
 [Wed Apr  8 15:56:57 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
 [Wed Apr  8 15:56:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
 [Wed Apr  8 15:56:57 2015] [debug] 200 OK (0.000805s, 1242.236/s).
+[Wed Apr  8 17:24:03 2015] [info] Listening at "http://*:3000".
+[Wed Apr  8 17:24:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:24:10 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:24:10 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:24:10 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:24:10 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:24:10 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:24:10 2015] [debug] 404 Not Found (0.029969s, 33.368/s).
+[Wed Apr  8 17:24:39 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:24:39 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:24:39 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:24:39 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:24:39 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:24:39 2015] [debug] 404 Not Found (0.013342s, 74.951/s).
+[Wed Apr  8 17:24:53 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:24:53 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:24:53 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:24:53 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:24:53 2015] [debug] 200 OK (0.004201s, 238.039/s).
+[Wed Apr  8 17:24:56 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:24:56 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:24:56 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:24:56 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:24:56 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:24:56 2015] [debug] 404 Not Found (0.005627s, 177.715/s).
+[Wed Apr  8 17:26:44 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:26:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:26:44 2015] [debug] 200 OK (0.005514s, 181.357/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/reset.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.020041s, 49.898/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/js/jquery.min.js".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005396s, 185.322/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005075s, 197.044/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005416s, 184.638/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005207s, 192.049/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005383s, 185.770/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005616s, 178.063/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005681s, 176.025/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005617s, 178.031/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.005824s, 171.703/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.007470s, 133.869/s).
+[Wed Apr  8 17:26:44 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:44 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:44 2015] [debug] 404 Not Found (0.006762s, 147.885/s).
+[Wed Apr  8 17:26:50 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:26:50 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:26:50 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:26:50 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:26:50 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:26:50 2015] [debug] 404 Not Found (0.010388s, 96.265/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:27:52 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:27:52 2015] [debug] 200 OK (0.001615s, 619.195/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/css/reset.css".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.008025s, 124.611/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/js/jquery.min.js".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.005241s, 190.803/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.005312s, 188.253/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.005032s, 198.728/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.005020s, 199.203/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:52 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:52 2015] [debug] 404 Not Found (0.005024s, 199.045/s).
+[Wed Apr  8 17:27:52 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:27:52 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.005125s, 195.122/s).
+[Wed Apr  8 17:27:53 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.007643s, 130.839/s).
+[Wed Apr  8 17:27:53 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.006196s, 161.394/s).
+[Wed Apr  8 17:27:53 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.008744s, 114.364/s).
+[Wed Apr  8 17:27:53 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.009040s, 110.619/s).
+[Wed Apr  8 17:27:53 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:27:53 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:27:53 2015] [debug] 404 Not Found (0.005673s, 176.274/s).
+[Wed Apr  8 17:30:10 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:30:10 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:30:10 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:30:10 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:30:10 2015] [debug] 200 OK (0.002070s, 483.092/s).
+[Wed Apr  8 17:43:21 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:43:21 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:43:21 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:43:21 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:43:21 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:43:21 2015] [debug] 200 OK (0.012562s, 79.605/s).
+[Wed Apr  8 17:43:23 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:43:23 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:43:23 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:43:23 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:43:23 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:43:23 2015] [debug] 404 Not Found (0.032866s, 30.427/s).
+[Wed Apr  8 17:44:01 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:44:01 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:44:01 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:44:01 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:44:01 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:44:01 2015] [debug] 200 OK (0.007228s, 138.351/s).
+[Wed Apr  8 17:44:03 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:44:03 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:03 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:03 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:03 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:03 2015] [debug] 404 Not Found (0.029990s, 33.344/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:44:07 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:44:07 2015] [debug] 200 OK (0.002229s, 448.632/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/reset.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005818s, 171.880/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/js/jquery.min.js".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005274s, 189.609/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.004803s, 208.203/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.004865s, 205.550/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005095s, 196.271/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005243s, 190.730/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005352s, 186.846/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005952s, 168.011/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.005727s, 174.611/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/gerencial.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.008654s, 115.554/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/css/font-awesome/css/font-awesome.min.css".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.011489s, 87.040/s).
+[Wed Apr  8 17:44:07 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:07 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:07 2015] [debug] 404 Not Found (0.008485s, 117.855/s).
+[Wed Apr  8 17:44:19 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:44:19 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:44:19 2015] [debug] 200 OK (0.011386s, 87.827/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/css/reset.css".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.020352s, 49.135/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/js/jquery.min.js".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.005702s, 175.377/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.004802s, 208.247/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.004848s, 206.271/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.004778s, 209.293/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/css/bootstrap-combined.min.css".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.005762s, 173.551/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/js/bootstrap.min.js".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.006311s, 158.453/s).
+[Wed Apr  8 17:44:19 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:19 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:19 2015] [debug] 404 Not Found (0.007793s, 128.320/s).
+[Wed Apr  8 17:44:27 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:44:27 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:44:27 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:44:27 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:44:27 2015] [debug] 200 OK (0.003414s, 292.912/s).
+[Wed Apr  8 17:44:50 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:44:50 2015] [debug] GET "/inicio".
+[Wed Apr  8 17:44:50 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 17:44:50 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 17:44:50 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:44:50 2015] [debug] 200 OK (0.008833s, 113.212/s).
+[Wed Apr  8 17:44:54 2015] [debug] GET "/cadastro".
+[Wed Apr  8 17:44:54 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:44:54 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:44:54 2015] [debug] Rendering inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:44:54 2015] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:44:54 2015] [debug] 404 Not Found (0.029308s, 34.120/s).
+[Wed Apr  8 17:45:05 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:45:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:45:05 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 17:45:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:45:05 2015] [debug] 200 OK (0.002574s, 388.500/s).
+[Wed Apr  8 17:45:05 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:45:05 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:45:05 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:45:05 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:45:05 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:45:05 2015] [debug] 404 Not Found (0.007699s, 129.887/s).
+[Wed Apr  8 17:45:05 2015] [debug] GET "/cadastro/img/detiin.png".
+[Wed Apr  8 17:45:05 2015] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  8 17:45:05 2015] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  8 17:45:05 2015] [debug] Rendering cached inline template "f1dc5ae11294c9115f24b13adf9a9165".
+[Wed Apr  8 17:45:05 2015] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Wed Apr  8 17:45:05 2015] [debug] 404 Not Found (0.005612s, 178.190/s).
+[Wed Apr  8 17:45:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 17:45:28 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 17:45:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 17:45:28 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 17:45:28 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 17:45:28 2015] [debug] 200 OK (0.005561s, 179.824/s).
+[Wed Apr  8 17:52:43 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 17:52:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 17:52:43 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 17:52:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:52:43 2015] [debug] 200 OK (0.001936s, 516.529/s).
+[Wed Apr  8 17:52:50 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 17:52:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 17:52:50 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 17:52:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 17:52:50 2015] [debug] 200 OK (0.002931s, 341.180/s).
+[Wed Apr  8 18:43:50 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 18:43:50 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 18:43:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 18:43:50 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 18:43:50 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 18:43:50 2015] [debug] 200 OK (0.012472s, 80.180/s).
+[Wed Apr  8 18:43:51 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 18:43:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 18:43:51 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 18:43:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:43:51 2015] [debug] 200 OK (0.003465s, 288.600/s).
+[Wed Apr  8 18:43:54 2015] [debug] GET "/inicio".
+[Wed Apr  8 18:43:54 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 18:43:54 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 18:43:54 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:43:54 2015] [debug] 200 OK (0.004093s, 244.320/s).
+[Wed Apr  8 18:43:55 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 18:43:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 18:43:55 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 18:43:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:43:55 2015] [debug] 200 OK (0.001472s, 679.348/s).
+[Wed Apr  8 18:45:37 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 18:45:37 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 18:45:37 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 18:45:37 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 18:45:37 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:37 2015] [debug] 200 OK (0.007679s, 130.225/s).
+[Wed Apr  8 18:45:39 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 18:45:39 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 18:45:39 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 18:45:39 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:39 2015] [debug] 200 OK (0.001998s, 500.501/s).
+[Wed Apr  8 18:45:41 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 18:45:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 18:45:41 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 18:45:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:41 2015] [debug] 200 OK (0.004225s, 236.686/s).
+[Wed Apr  8 18:45:43 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 18:45:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 18:45:43 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 18:45:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:43 2015] [debug] 200 OK (0.001603s, 623.830/s).
+[Wed Apr  8 18:45:46 2015] [debug] GET "/inicio".
+[Wed Apr  8 18:45:46 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 18:45:46 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 18:45:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:46 2015] [debug] 200 OK (0.002865s, 349.040/s).
+[Wed Apr  8 18:45:47 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 18:45:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 18:45:47 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 18:45:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 18:45:47 2015] [debug] 200 OK (0.000762s, 1312.336/s).
+[Wed Apr  8 22:15:44 2015] [info] Listening at "http://*:3000".
+[Wed Apr  8 22:15:46 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:15:46 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:15:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:15:46 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:15:46 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:15:46 2015] [debug] 200 OK (0.084012s, 11.903/s).
+[Wed Apr  8 22:15:49 2015] [debug] GET "/inicio".
+[Wed Apr  8 22:15:49 2015] [debug] Controller "Gerencial::Controller::Inicio" does not exist.
+[Wed Apr  8 22:15:49 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 22:15:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:15:49 2015] [debug] 200 OK (0.020357s, 49.123/s).
+[Wed Apr  8 22:15:52 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:15:52 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:15:52 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:15:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:15:52 2015] [debug] 200 OK (0.001039s, 962.464/s).
+[Wed Apr  8 22:15:57 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:15:57 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:15:57 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:15:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:15:57 2015] [debug] 200 OK (0.082981s, 12.051/s).
+[Wed Apr  8 22:15:58 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:15:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:15:58 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:15:58 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:15:58 2015] [debug] 200 OK (0.082930s, 12.058/s).
+[Wed Apr  8 22:16:01 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:16:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:16:01 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:16:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:16:01 2015] [debug] 200 OK (0.001570s, 636.943/s).
+[Wed Apr  8 22:17:31 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:17:31 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:17:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:17:31 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:17:31 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:31 2015] [debug] 200 OK (0.011017s, 90.769/s).
+[Wed Apr  8 22:17:33 2015] [debug] GET "/inicio".
+[Wed Apr  8 22:17:33 2015] [debug] Class "Gerencial::Controller::Inicio" is not a controller.
+[Wed Apr  8 22:17:33 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 22:17:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:33 2015] [debug] 200 OK (0.003603s, 277.546/s).
+[Wed Apr  8 22:17:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:17:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:17:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:17:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:34 2015] [debug] 200 OK (0.000783s, 1277.139/s).
+[Wed Apr  8 22:17:36 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:17:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:17:36 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:17:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:36 2015] [debug] 200 OK (0.004001s, 249.938/s).
+[Wed Apr  8 22:17:37 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:17:37 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:17:37 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:17:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:37 2015] [debug] 200 OK (0.002698s, 370.645/s).
+[Wed Apr  8 22:17:38 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:17:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:17:38 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:17:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:38 2015] [debug] 200 OK (0.000930s, 1075.269/s).
+[Wed Apr  8 22:17:41 2015] [debug] GET "/inicio".
+[Wed Apr  8 22:17:41 2015] [debug] Class "Gerencial::Controller::Inicio" is not a controller.
+[Wed Apr  8 22:17:41 2015] [debug] Rendering cached template "inicio/index.html.ep".
+[Wed Apr  8 22:17:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:41 2015] [debug] 200 OK (0.001570s, 636.943/s).
+[Wed Apr  8 22:17:51 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:17:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:17:51 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:17:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:17:51 2015] [debug] 200 OK (0.000758s, 1319.261/s).
+[Wed Apr  8 22:18:01 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:18:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:18:01 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:18:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:01 2015] [debug] 200 OK (0.000759s, 1317.523/s).
+[Wed Apr  8 22:18:04 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:18:04 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:18:04 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:18:04 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:04 2015] [debug] 200 OK (0.001768s, 565.611/s).
+[Wed Apr  8 22:18:20 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:18:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:18:20 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:18:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:20 2015] [debug] 200 OK (0.000772s, 1295.337/s).
+[Wed Apr  8 22:18:30 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:18:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:18:30 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:18:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:30 2015] [debug] 200 OK (0.000686s, 1457.726/s).
+[Wed Apr  8 22:18:32 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:18:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:18:32 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:18:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:32 2015] [debug] 200 OK (0.000744s, 1344.086/s).
+[Wed Apr  8 22:18:34 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:18:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:18:34 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:18:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:34 2015] [debug] 200 OK (0.001542s, 648.508/s).
+[Wed Apr  8 22:18:35 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:18:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:18:35 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:18:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:18:35 2015] [debug] 200 OK (0.000746s, 1340.483/s).
+[Wed Apr  8 22:19:05 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:19:05 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:19:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:19:05 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:19:05 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:19:05 2015] [debug] 200 OK (0.017059s, 58.620/s).
+[Wed Apr  8 22:19:21 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:19:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:19:21 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:19:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:19:21 2015] [debug] 200 OK (0.001977s, 505.817/s).
+[Wed Apr  8 22:19:23 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:19:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:19:23 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:19:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:19:23 2015] [debug] 200 OK (0.003990s, 250.627/s).
+[Wed Apr  8 22:21:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:21:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:21:24 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:21:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:21:24 2015] [debug] 200 OK (0.001511s, 661.813/s).
+[Wed Apr  8 22:21:30 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:21:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:21:30 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:21:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:21:30 2015] [debug] 200 OK (0.001483s, 674.309/s).
+[Wed Apr  8 22:21:52 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:21:52 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:21:52 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:21:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:21:52 2015] [debug] 200 OK (0.001263s, 791.766/s).
+[Wed Apr  8 22:21:54 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:21:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:21:54 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:21:54 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:21:54 2015] [debug] 200 OK (0.001503s, 665.336/s).
+[Wed Apr  8 22:23:51 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:23:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:23:51 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:23:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:23:51 2015] [debug] 200 OK (0.001820s, 549.451/s).
+[Wed Apr  8 22:23:54 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:23:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:23:54 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:23:54 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:23:54 2015] [debug] 200 OK (0.001524s, 656.168/s).
+[Wed Apr  8 22:24:02 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:24:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:24:02 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:24:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:24:02 2015] [debug] 200 OK (0.001626s, 615.006/s).
+[Wed Apr  8 22:24:05 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:24:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:24:05 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:24:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:24:05 2015] [debug] 200 OK (0.001491s, 670.691/s).
+[Wed Apr  8 22:24:16 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:24:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:24:16 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:24:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:24:16 2015] [debug] 200 OK (0.001838s, 544.070/s).
+[Wed Apr  8 22:24:18 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:24:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:24:18 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:24:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:24:18 2015] [debug] 200 OK (0.001689s, 592.066/s).
+[Wed Apr  8 22:25:14 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:25:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:25:14 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:25:14 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:25:14 2015] [debug] 200 OK (0.000986s, 1014.199/s).
+[Wed Apr  8 22:25:16 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:25:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:25:16 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:25:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:25:16 2015] [debug] 200 OK (0.000743s, 1345.895/s).
+[Wed Apr  8 22:25:18 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:25:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:25:18 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:25:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:25:18 2015] [debug] 200 OK (0.001505s, 664.452/s).
+[Wed Apr  8 22:25:38 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:25:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:25:38 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:25:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:25:38 2015] [debug] 200 OK (0.001825s, 547.945/s).
+[Wed Apr  8 22:26:59 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:26:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:26:59 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:26:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:26:59 2015] [debug] 200 OK (0.000760s, 1315.789/s).
+[Wed Apr  8 22:27:26 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:27:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:27:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:27:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:27:26 2015] [debug] 200 OK (0.000711s, 1406.470/s).
+[Wed Apr  8 22:27:29 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:27:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:27:29 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:27:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:27:29 2015] [debug] 200 OK (0.001498s, 667.557/s).
+[Wed Apr  8 22:27:32 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:27:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:27:32 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:27:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:27:32 2015] [debug] 200 OK (0.000685s, 1459.854/s).
+[Wed Apr  8 22:29:21 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:29:21 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:29:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:29:21 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:29:21 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:29:21 2015] [debug] 200 OK (0.009275s, 107.817/s).
+[Wed Apr  8 22:29:23 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:29:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:29:23 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:29:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:29:23 2015] [debug] 200 OK (0.001949s, 513.084/s).
+[Wed Apr  8 22:29:25 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:29:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:29:25 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:29:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:29:25 2015] [debug] 200 OK (0.001815s, 550.964/s).
+[Wed Apr  8 22:29:29 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:29:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:29:29 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:29:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:29:29 2015] [debug] 200 OK (0.000732s, 1366.120/s).
+[Wed Apr  8 22:30:42 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:30:42 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:30:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:30:42 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:30:42 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:42 2015] [debug] 200 OK (0.014005s, 71.403/s).
+[Wed Apr  8 22:30:45 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:30:45 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:30:45 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:30:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:45 2015] [debug] 200 OK (0.003105s, 322.061/s).
+[Wed Apr  8 22:30:48 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:30:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:30:48 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:30:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:48 2015] [debug] 200 OK (0.001505s, 664.452/s).
+[Wed Apr  8 22:30:49 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:30:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:30:49 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:30:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:49 2015] [debug] 200 OK (0.000713s, 1402.525/s).
+[Wed Apr  8 22:30:50 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:30:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:30:50 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:30:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:50 2015] [debug] 200 OK (0.000859s, 1164.144/s).
+[Wed Apr  8 22:30:51 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:30:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:30:51 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:30:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:30:51 2015] [debug] 200 OK (0.001490s, 671.141/s).
+[Wed Apr  8 22:31:31 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:31:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:31:31 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:31:31 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:31:31 2015] [debug] 200 OK (0.001501s, 666.223/s).
+[Wed Apr  8 22:31:32 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:31:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:31:32 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:31:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:31:32 2015] [debug] 200 OK (0.003398s, 294.291/s).
+[Wed Apr  8 22:31:33 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:31:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:31:33 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:31:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:31:33 2015] [debug] 200 OK (0.000653s, 1531.394/s).
+[Wed Apr  8 22:31:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:31:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:31:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:31:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:31:34 2015] [debug] 200 OK (0.000709s, 1410.437/s).
+[Wed Apr  8 22:31:36 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:31:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:31:36 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:31:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:31:36 2015] [debug] 200 OK (0.001603s, 623.830/s).
+[Wed Apr  8 22:32:03 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:32:03 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:32:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:32:03 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:32:03 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:03 2015] [debug] 200 OK (0.005901s, 169.463/s).
+[Wed Apr  8 22:32:04 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:32:04 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:32:04 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:32:04 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:04 2015] [debug] 200 OK (0.002452s, 407.830/s).
+[Wed Apr  8 22:32:48 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:32:48 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:32:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:32:48 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:32:48 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:48 2015] [debug] 200 OK (0.006458s, 154.847/s).
+[Wed Apr  8 22:32:49 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:32:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:32:49 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:32:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:49 2015] [debug] 200 OK (0.001473s, 678.887/s).
+[Wed Apr  8 22:32:50 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:32:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:32:50 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:32:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:50 2015] [debug] 200 OK (0.001430s, 699.301/s).
+[Wed Apr  8 22:32:50 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:32:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:32:50 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:32:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:32:50 2015] [debug] 200 OK (0.003773s, 265.041/s).
+[Wed Apr  8 22:34:47 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:34:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:34:47 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:34:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:34:47 2015] [debug] 200 OK (0.001483s, 674.309/s).
+[Wed Apr  8 22:34:49 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:34:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:34:49 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:34:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:34:49 2015] [debug] 200 OK (0.001537s, 650.618/s).
+[Wed Apr  8 22:34:51 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:34:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:34:51 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:34:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:34:51 2015] [debug] 200 OK (0.001523s, 656.599/s).
+[Wed Apr  8 22:34:53 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:34:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:34:53 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:34:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:34:53 2015] [debug] 200 OK (0.004203s, 237.925/s).
+[Wed Apr  8 22:34:56 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:34:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:34:56 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:34:56 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:34:56 2015] [debug] 200 OK (0.001468s, 681.199/s).
+[Wed Apr  8 22:35:21 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:21 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:21 2015] [debug] 200 OK (0.001573s, 635.728/s).
+[Wed Apr  8 22:35:23 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:23 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:23 2015] [debug] 200 OK (0.001500s, 666.667/s).
+[Wed Apr  8 22:35:24 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:24 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:24 2015] [debug] 200 OK (0.000709s, 1410.437/s).
+[Wed Apr  8 22:35:38 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:38 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:38 2015] [debug] 200 OK (0.001911s, 523.286/s).
+[Wed Apr  8 22:35:40 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:40 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:40 2015] [debug] 200 OK (0.000738s, 1355.014/s).
+[Wed Apr  8 22:35:40 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:40 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:40 2015] [debug] 200 OK (0.001475s, 677.966/s).
+[Wed Apr  8 22:35:41 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:41 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:41 2015] [debug] 200 OK (0.001430s, 699.301/s).
+[Wed Apr  8 22:35:41 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:35:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:35:41 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:35:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:41 2015] [debug] 200 OK (0.001460s, 684.932/s).
+[Wed Apr  8 22:35:49 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:35:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:35:49 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:35:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:49 2015] [debug] 200 OK (0.000671s, 1490.313/s).
+[Wed Apr  8 22:35:50 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:35:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:35:50 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:35:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:35:50 2015] [debug] 200 OK (0.001371s, 729.395/s).
+[Wed Apr  8 22:36:11 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:11 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:11 2015] [debug] 200 OK (0.001034s, 967.118/s).
+[Wed Apr  8 22:36:12 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:12 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:12 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:12 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:12 2015] [debug] 200 OK (0.001610s, 621.118/s).
+[Wed Apr  8 22:36:13 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:13 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:13 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:13 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:13 2015] [debug] 200 OK (0.001457s, 686.342/s).
+[Wed Apr  8 22:36:13 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:13 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:13 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:13 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:13 2015] [debug] 200 OK (0.001456s, 686.813/s).
+[Wed Apr  8 22:36:14 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:14 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:14 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:14 2015] [debug] 200 OK (0.001450s, 689.655/s).
+[Wed Apr  8 22:36:15 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:36:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:36:15 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:36:15 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:15 2015] [debug] 200 OK (0.001433s, 697.837/s).
+[Wed Apr  8 22:36:16 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:16 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:16 2015] [debug] 200 OK (0.001462s, 683.995/s).
+[Wed Apr  8 22:36:17 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:17 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:17 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:17 2015] [debug] 200 OK (0.000716s, 1396.648/s).
+[Wed Apr  8 22:36:18 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:18 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:18 2015] [debug] 200 OK (0.001487s, 672.495/s).
+[Wed Apr  8 22:36:19 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:36:19 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:36:19 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:36:19 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:19 2015] [debug] 200 OK (0.001460s, 684.932/s).
+[Wed Apr  8 22:36:30 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:36:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:36:30 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:36:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:30 2015] [debug] 200 OK (0.001532s, 652.742/s).
+[Wed Apr  8 22:36:31 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:31 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:31 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:31 2015] [debug] 200 OK (0.001529s, 654.022/s).
+[Wed Apr  8 22:36:32 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:32 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:32 2015] [debug] 200 OK (0.001681s, 594.884/s).
+[Wed Apr  8 22:36:33 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:36:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:36:33 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:36:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:33 2015] [debug] 200 OK (0.000714s, 1400.560/s).
+[Wed Apr  8 22:36:34 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:34 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:34 2015] [debug] 200 OK (0.001727s, 579.039/s).
+[Wed Apr  8 22:36:44 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:44 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:44 2015] [debug] 200 OK (0.001637s, 610.874/s).
+[Wed Apr  8 22:36:46 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:36:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:36:46 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:36:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:46 2015] [debug] 200 OK (0.001237s, 808.407/s).
+[Wed Apr  8 22:36:46 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:36:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:36:46 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:36:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:46 2015] [debug] 200 OK (0.001528s, 654.450/s).
+[Wed Apr  8 22:36:47 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:36:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:36:47 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:36:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:36:47 2015] [debug] 200 OK (0.001451s, 689.180/s).
+[Wed Apr  8 22:37:15 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:37:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:37:15 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:37:15 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:15 2015] [debug] 200 OK (0.002109s, 474.158/s).
+[Wed Apr  8 22:37:16 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:37:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:37:16 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:37:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:16 2015] [debug] 200 OK (0.000976s, 1024.590/s).
+[Wed Apr  8 22:37:16 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:37:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:37:16 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:37:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:16 2015] [debug] 200 OK (0.001435s, 696.864/s).
+[Wed Apr  8 22:37:17 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:37:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:37:17 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:37:17 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:17 2015] [debug] 200 OK (0.001446s, 691.563/s).
+[Wed Apr  8 22:37:18 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:37:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:37:18 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:37:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:18 2015] [debug] 200 OK (0.000695s, 1438.849/s).
+[Wed Apr  8 22:37:18 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:37:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:37:18 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:37:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:37:18 2015] [debug] 200 OK (0.000697s, 1434.720/s).
+[Wed Apr  8 22:38:22 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:38:22 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:38:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:38:22 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:38:22 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:22 2015] [debug] 200 OK (0.007711s, 129.685/s).
+[Wed Apr  8 22:38:23 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:38:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:38:23 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:38:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:23 2015] [debug] 200 OK (0.002770s, 361.011/s).
+[Wed Apr  8 22:38:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:38:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:38:24 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:38:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:24 2015] [debug] 200 OK (0.003556s, 281.215/s).
+[Wed Apr  8 22:38:25 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:38:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:38:25 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:38:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:25 2015] [debug] 200 OK (0.001478s, 676.590/s).
+[Wed Apr  8 22:38:26 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:38:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:38:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:38:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:26 2015] [debug] 200 OK (0.001098s, 910.747/s).
+[Wed Apr  8 22:38:56 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:38:56 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:38:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:38:56 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:38:56 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:56 2015] [debug] 200 OK (0.005912s, 169.147/s).
+[Wed Apr  8 22:38:58 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:38:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:38:58 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:38:58 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:38:58 2015] [debug] 200 OK (0.001870s, 534.759/s).
+[Wed Apr  8 22:39:00 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:39:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:39:00 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:39:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:00 2015] [debug] 200 OK (0.002041s, 489.956/s).
+[Wed Apr  8 22:39:01 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:39:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:39:01 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:39:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:01 2015] [debug] 200 OK (0.001484s, 673.854/s).
+[Wed Apr  8 22:39:02 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:39:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:39:02 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:39:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:02 2015] [debug] 200 OK (0.001466s, 682.128/s).
+[Wed Apr  8 22:39:41 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:39:41 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:39:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:39:41 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:39:41 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:41 2015] [debug] 200 OK (0.010227s, 97.780/s).
+[Wed Apr  8 22:39:42 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:39:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:39:42 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:39:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:42 2015] [debug] 200 OK (0.002993s, 334.113/s).
+[Wed Apr  8 22:39:44 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:39:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:39:44 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:39:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:39:44 2015] [debug] 200 OK (0.001701s, 587.889/s).
+[Wed Apr  8 22:41:17 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:41:17 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:41:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:41:17 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:41:17 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:17 2015] [debug] 200 OK (0.013463s, 74.278/s).
+[Wed Apr  8 22:41:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:41:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:41:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:41:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:34 2015] [debug] 200 OK (0.001426s, 701.262/s).
+[Wed Apr  8 22:41:36 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:41:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:41:36 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:41:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:36 2015] [debug] 200 OK (0.001454s, 687.758/s).
+[Wed Apr  8 22:41:36 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:41:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:41:36 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:41:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:36 2015] [debug] 200 OK (0.003967s, 252.080/s).
+[Wed Apr  8 22:41:37 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:41:37 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:41:37 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:41:37 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:37 2015] [debug] 200 OK (0.001484s, 673.854/s).
+[Wed Apr  8 22:41:57 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:41:57 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:41:57 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:41:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:41:57 2015] [debug] 200 OK (0.001504s, 664.894/s).
+[Wed Apr  8 22:42:23 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:42:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:42:23 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:42:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:42:23 2015] [debug] 200 OK (0.001812s, 551.876/s).
+[Wed Apr  8 22:42:26 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:42:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:42:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:42:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:42:26 2015] [debug] 200 OK (0.001524s, 656.168/s).
+[Wed Apr  8 22:43:02 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:43:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:43:02 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:43:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:43:02 2015] [debug] 200 OK (0.001813s, 551.572/s).
+[Wed Apr  8 22:43:39 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:43:39 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:43:39 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:43:39 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:43:39 2015] [debug] 200 OK (0.001773s, 564.016/s).
+[Wed Apr  8 22:44:31 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:44:31 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:44:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:44:31 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:44:31 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:44:31 2015] [debug] 200 OK (0.015143s, 66.037/s).
+[Wed Apr  8 22:44:33 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:44:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:44:33 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:44:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:44:33 2015] [debug] 200 OK (0.001863s, 536.769/s).
+[Wed Apr  8 22:44:56 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:44:56 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:44:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:44:56 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:44:56 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:44:56 2015] [debug] 200 OK (0.014648s, 68.269/s).
+[Wed Apr  8 22:45:19 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:45:19 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:45:19 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:45:19 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:45:19 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:45:19 2015] [debug] 200 OK (0.012183s, 82.082/s).
+[Wed Apr  8 22:45:36 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:45:36 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:45:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:45:36 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:45:36 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:45:36 2015] [debug] 200 OK (0.011145s, 89.726/s).
+[Wed Apr  8 22:46:24 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:46:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:46:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:46:24 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:46:24 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:46:24 2015] [debug] 200 OK (0.013544s, 73.833/s).
+[Wed Apr  8 22:46:30 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:46:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:46:30 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:46:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:46:30 2015] [debug] 200 OK (0.001384s, 722.543/s).
+[Wed Apr  8 22:46:31 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:46:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:46:31 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:46:31 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:46:31 2015] [debug] 200 OK (0.004081s, 245.038/s).
+[Wed Apr  8 22:46:33 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:46:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:46:33 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:46:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:46:33 2015] [debug] 200 OK (0.000714s, 1400.560/s).
+[Wed Apr  8 22:47:00 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:47:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:47:00 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:47:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:00 2015] [debug] 200 OK (0.001482s, 674.764/s).
+[Wed Apr  8 22:47:20 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:47:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:47:20 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:47:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:20 2015] [debug] 200 OK (0.001149s, 870.322/s).
+[Wed Apr  8 22:47:41 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:47:41 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:47:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:47:41 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:47:41 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:41 2015] [debug] 200 OK (0.013596s, 73.551/s).
+[Wed Apr  8 22:47:43 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:47:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:47:43 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:47:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:43 2015] [debug] 200 OK (0.002874s, 347.947/s).
+[Wed Apr  8 22:47:45 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:47:45 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:47:45 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:47:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:45 2015] [debug] 200 OK (0.002918s, 342.700/s).
+[Wed Apr  8 22:47:46 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:47:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:47:46 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:47:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:46 2015] [debug] 200 OK (0.000983s, 1017.294/s).
+[Wed Apr  8 22:47:48 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:47:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:47:48 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:47:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:48 2015] [debug] 200 OK (0.000873s, 1145.475/s).
+[Wed Apr  8 22:47:49 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:47:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:47:49 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:47:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:47:49 2015] [debug] 200 OK (0.001475s, 677.966/s).
+[Wed Apr  8 22:48:46 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:48:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:48:46 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:48:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:48:46 2015] [debug] 200 OK (0.001912s, 523.013/s).
+[Wed Apr  8 22:49:22 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:49:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:49:22 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:49:22 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:22 2015] [debug] 200 OK (0.001477s, 677.048/s).
+[Wed Apr  8 22:49:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:49:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:49:24 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:49:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:24 2015] [debug] 200 OK (0.000788s, 1269.036/s).
+[Wed Apr  8 22:49:29 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:49:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:49:29 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:49:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:29 2015] [debug] 200 OK (0.001517s, 659.196/s).
+[Wed Apr  8 22:49:31 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 22:49:31 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 22:49:31 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 22:49:31 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:31 2015] [debug] 200 OK (0.001665s, 600.601/s).
+[Wed Apr  8 22:49:32 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:49:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:49:32 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:49:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:32 2015] [debug] 200 OK (0.001035s, 966.184/s).
+[Wed Apr  8 22:49:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:49:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:49:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:49:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:34 2015] [debug] 200 OK (0.001476s, 677.507/s).
+[Wed Apr  8 22:49:49 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:49:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:49:49 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:49:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:49 2015] [debug] 200 OK (0.001066s, 938.086/s).
+[Wed Apr  8 22:49:50 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:49:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:49:50 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:49:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:49:50 2015] [debug] 200 OK (0.001496s, 668.449/s).
+[Wed Apr  8 22:50:00 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:00 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:00 2015] [debug] 200 OK (0.000704s, 1420.455/s).
+[Wed Apr  8 22:50:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:50:18 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:18 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:18 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:18 2015] [debug] 200 OK (0.012016s, 83.222/s).
+[Wed Apr  8 22:50:20 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:50:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:50:20 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:50:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:20 2015] [debug] 200 OK (0.002666s, 375.094/s).
+[Wed Apr  8 22:50:21 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:21 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:21 2015] [debug] 200 OK (0.001515s, 660.066/s).
+[Wed Apr  8 22:50:28 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:50:28 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:28 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:28 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:28 2015] [debug] 200 OK (0.013087s, 76.412/s).
+[Wed Apr  8 22:50:30 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 22:50:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 22:50:30 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 22:50:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:30 2015] [debug] 200 OK (0.001895s, 527.704/s).
+[Wed Apr  8 22:50:30 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:30 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:30 2015] [debug] 200 OK (0.001484s, 673.854/s).
+[Wed Apr  8 22:50:32 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:50:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:50:32 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:50:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:50:32 2015] [debug] 200 OK (0.001430s, 699.301/s).
+[Wed Apr  8 22:51:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:51:10 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:51:10 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:51:10 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:51:10 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:51:10 2015] [debug] 200 OK (0.016335s, 61.218/s).
+[Wed Apr  8 22:51:53 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 22:51:53 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:51:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:51:53 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 22:51:53 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 22:51:53 2015] [debug] 200 OK (0.007194s, 139.005/s).
+[Wed Apr  8 22:52:23 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:52:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:52:23 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:52:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:52:23 2015] [debug] 200 OK (0.001482s, 674.764/s).
+[Wed Apr  8 22:54:16 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:54:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:54:16 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:54:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:54:16 2015] [debug] 200 OK (0.001532s, 652.742/s).
+[Wed Apr  8 22:54:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:54:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:54:24 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:54:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:54:24 2015] [debug] 200 OK (0.001536s, 651.042/s).
+[Wed Apr  8 22:54:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:54:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:54:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:54:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:54:34 2015] [debug] 200 OK (0.001851s, 540.249/s).
+[Wed Apr  8 22:54:50 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:54:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:54:50 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:54:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:54:50 2015] [debug] 200 OK (0.001948s, 513.347/s).
+[Wed Apr  8 22:56:04 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:56:04 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:56:04 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:56:04 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:56:04 2015] [debug] 200 OK (0.001529s, 654.022/s).
+[Wed Apr  8 22:56:16 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:56:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:56:16 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:56:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:56:16 2015] [debug] 200 OK (0.001570s, 636.943/s).
+[Wed Apr  8 22:56:24 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:56:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:56:24 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:56:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:56:24 2015] [debug] 200 OK (0.001513s, 660.939/s).
+[Wed Apr  8 22:56:41 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:56:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:56:41 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:56:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:56:41 2015] [debug] 200 OK (0.001581s, 632.511/s).
+[Wed Apr  8 22:56:56 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:56:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:56:56 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:56:56 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:56:56 2015] [debug] 200 OK (0.001542s, 648.508/s).
+[Wed Apr  8 22:57:15 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:57:15 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:57:15 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:57:15 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:57:15 2015] [debug] 200 OK (0.000727s, 1375.516/s).
+[Wed Apr  8 22:57:26 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:57:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:57:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:57:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:57:26 2015] [debug] 200 OK (0.001274s, 784.929/s).
+[Wed Apr  8 22:57:46 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:57:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:57:46 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:57:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:57:46 2015] [debug] 200 OK (0.001706s, 586.166/s).
+[Wed Apr  8 22:58:34 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:58:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:58:34 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:58:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:58:34 2015] [debug] 200 OK (0.001774s, 563.698/s).
+[Wed Apr  8 22:59:20 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:59:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:59:20 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:59:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:59:20 2015] [debug] 200 OK (0.001517s, 659.196/s).
+[Wed Apr  8 22:59:35 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:59:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:59:35 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:59:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:59:35 2015] [debug] 200 OK (0.001880s, 531.915/s).
+[Wed Apr  8 22:59:59 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 22:59:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 22:59:59 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 22:59:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 22:59:59 2015] [debug] 200 OK (0.001828s, 547.046/s).
+[Wed Apr  8 23:00:40 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:00:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:00:40 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:00:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:00:40 2015] [debug] 200 OK (0.001539s, 649.773/s).
+[Wed Apr  8 23:01:17 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:01:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:01:17 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:01:17 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:01:17 2015] [debug] 200 OK (0.001720s, 581.395/s).
+[Wed Apr  8 23:01:36 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:01:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:01:36 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:01:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:01:36 2015] [debug] 200 OK (0.001903s, 525.486/s).
+[Wed Apr  8 23:01:47 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:01:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:01:47 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:01:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:01:47 2015] [debug] 200 OK (0.000913s, 1095.290/s).
+[Wed Apr  8 23:02:29 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:02:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:02:29 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:02:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:02:29 2015] [debug] 200 OK (0.001495s, 668.896/s).
+[Wed Apr  8 23:03:09 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:03:09 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:03:09 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:03:09 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:03:09 2015] [debug] 200 OK (0.001823s, 548.546/s).
+[Wed Apr  8 23:03:18 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:03:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:03:18 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:03:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:03:18 2015] [debug] 200 OK (0.001489s, 671.592/s).
+[Wed Apr  8 23:03:29 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:03:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:03:29 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:03:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:03:29 2015] [debug] 200 OK (0.001513s, 660.939/s).
+[Wed Apr  8 23:03:43 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:03:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:03:43 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:03:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:03:43 2015] [debug] 200 OK (0.001925s, 519.481/s).
+[Wed Apr  8 23:03:55 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:03:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:03:55 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:03:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:03:55 2015] [debug] 200 OK (0.001542s, 648.508/s).
+[Wed Apr  8 23:09:59 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:09:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:09:59 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:09:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:09:59 2015] [debug] 200 OK (0.001518s, 658.762/s).
+[Wed Apr  8 23:10:46 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:10:46 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:10:46 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:10:46 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:10:46 2015] [debug] 200 OK (0.001478s, 676.590/s).
+[Wed Apr  8 23:11:10 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:11:10 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:11:10 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:11:10 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:11:10 2015] [debug] 200 OK (0.001836s, 544.662/s).
+[Wed Apr  8 23:11:36 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:11:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:11:36 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:11:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:11:36 2015] [debug] 200 OK (0.001214s, 823.723/s).
+[Wed Apr  8 23:11:55 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:11:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:11:55 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:11:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:11:55 2015] [debug] 200 OK (0.001801s, 555.247/s).
+[Wed Apr  8 23:12:20 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:12:20 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:12:20 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:12:20 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:12:20 2015] [debug] 200 OK (0.001552s, 644.330/s).
+[Wed Apr  8 23:12:42 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:12:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:12:42 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:12:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:12:42 2015] [debug] 200 OK (0.001596s, 626.566/s).
+[Wed Apr  8 23:12:55 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:12:55 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:12:55 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:12:55 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:12:55 2015] [debug] 200 OK (0.001501s, 666.223/s).
+[Wed Apr  8 23:13:05 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:13:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:13:05 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:13:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:13:05 2015] [debug] 200 OK (0.001844s, 542.299/s).
+[Wed Apr  8 23:13:48 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:13:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:13:48 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:13:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:13:48 2015] [debug] 200 OK (0.001274s, 784.929/s).
+[Wed Apr  8 23:13:52 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:13:52 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:13:52 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:13:52 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:13:52 2015] [debug] 200 OK (0.001888s, 529.661/s).
+[Wed Apr  8 23:13:59 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:13:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:13:59 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:13:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:13:59 2015] [debug] 200 OK (0.001773s, 564.016/s).
+[Wed Apr  8 23:14:47 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:14:47 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:14:47 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:14:47 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:14:47 2015] [debug] 200 OK (0.001348s, 741.840/s).
+[Wed Apr  8 23:16:14 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 23:16:14 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:16:14 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:16:14 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 23:16:14 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 23:16:14 2015] [debug] 200 OK (0.007019s, 142.470/s).
+[Wed Apr  8 23:17:11 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:17:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:17:11 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:17:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:17:11 2015] [debug] 200 OK (0.001785s, 560.224/s).
+[Wed Apr  8 23:17:26 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:17:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:17:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:17:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:17:26 2015] [debug] 200 OK (0.001442s, 693.481/s).
+[Wed Apr  8 23:17:29 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:17:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:17:29 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:17:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:17:29 2015] [debug] 200 OK (0.001830s, 546.448/s).
+[Wed Apr  8 23:17:43 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:17:43 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:17:43 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:17:43 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:17:43 2015] [debug] 200 OK (0.001847s, 541.419/s).
+[Wed Apr  8 23:20:11 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:20:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:20:11 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:20:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:20:11 2015] [debug] 200 OK (0.001932s, 517.598/s).
+[Wed Apr  8 23:20:40 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:20:40 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:20:40 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:20:40 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:20:40 2015] [debug] 200 OK (0.001455s, 687.285/s).
+[Wed Apr  8 23:20:41 2015] [debug] GET "/inicio".
+[Wed Apr  8 23:20:41 2015] [debug] Class "Gerencial::Controller::Inicio" is not a controller.
+[Wed Apr  8 23:20:41 2015] [debug] Rendering template "inicio/index.html.ep".
+[Wed Apr  8 23:20:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:20:41 2015] [debug] 200 OK (0.002581s, 387.447/s).
+[Wed Apr  8 23:20:42 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:20:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:20:42 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Wed Apr  8 23:20:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:20:42 2015] [debug] 200 OK (0.000735s, 1360.544/s).
+[Wed Apr  8 23:20:44 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 23:20:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 23:20:44 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 23:20:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:20:44 2015] [debug] 200 OK (0.001854s, 539.374/s).
+[Wed Apr  8 23:23:05 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 23:23:05 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 23:23:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 23:23:05 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 23:23:05 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 23:23:05 2015] [debug] 200 OK (0.008627s, 115.915/s).
+[Wed Apr  8 23:23:08 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 23:23:08 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 23:23:08 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 23:23:08 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:23:08 2015] [debug] 200 OK (0.002141s, 467.071/s).
+[Wed Apr  8 23:23:36 2015] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  8 23:23:36 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 23:23:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 23:23:36 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 23:23:36 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Wed Apr  8 23:23:36 2015] [debug] 200 OK (0.007038s, 142.086/s).
+[Wed Apr  8 23:23:49 2015] [debug] GET "/cadastro/cliente".
+[Wed Apr  8 23:23:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Wed Apr  8 23:23:49 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Wed Apr  8 23:23:49 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:23:49 2015] [debug] 200 OK (0.003829s, 261.165/s).
+[Wed Apr  8 23:24:02 2015] [debug] GET "/cadastro/banco".
+[Wed Apr  8 23:24:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Wed Apr  8 23:24:02 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Wed Apr  8 23:24:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:24:02 2015] [debug] 200 OK (0.002003s, 499.251/s).
+[Wed Apr  8 23:24:03 2015] [debug] GET "/cadastro/fornecedor".
+[Wed Apr  8 23:24:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Wed Apr  8 23:24:03 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Wed Apr  8 23:24:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Wed Apr  8 23:24:03 2015] [debug] 200 OK (0.001024s, 976.562/s).
+[Thu Apr  9 00:07:59 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:07:59 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:07:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:07:59 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:07:59 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:07:59 2015] [debug] 200 OK (0.007905s, 126.502/s).
+[Thu Apr  9 00:08:01 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:08:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:08:01 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:08:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:08:01 2015] [debug] 200 OK (0.003595s, 278.164/s).
+[Thu Apr  9 00:09:05 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:09:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:09:05 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:09:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:09:05 2015] [debug] 200 OK (0.001954s, 511.771/s).
+[Thu Apr  9 00:09:30 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:09:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:09:30 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:09:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:09:30 2015] [debug] 200 OK (0.000725s, 1379.310/s).
+[Thu Apr  9 00:10:04 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:10:04 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:10:04 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:10:04 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:10:04 2015] [debug] 200 OK (0.001903s, 525.486/s).
+[Thu Apr  9 00:11:03 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:11:03 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:11:03 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:11:03 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:11:03 2015] [debug] 200 OK (0.001481s, 675.219/s).
+[Thu Apr  9 00:11:18 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:11:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:11:18 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:11:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:11:18 2015] [debug] 200 OK (0.001622s, 616.523/s).
+[Thu Apr  9 00:11:48 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:11:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:11:48 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:11:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:11:48 2015] [debug] 200 OK (0.001326s, 754.148/s).
+[Thu Apr  9 00:12:00 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:12:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:12:00 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:12:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:12:00 2015] [debug] 200 OK (0.001280s, 781.250/s).
+[Thu Apr  9 00:12:25 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:12:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:12:25 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:12:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:12:25 2015] [debug] 200 OK (0.004452s, 224.618/s).
+[Thu Apr  9 00:12:26 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:12:26 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:12:26 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:12:26 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:12:26 2015] [debug] 200 OK (0.001697s, 589.275/s).
+[Thu Apr  9 00:12:54 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:12:54 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:12:54 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:12:54 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:12:54 2015] [debug] 200 OK (0.001639s, 610.128/s).
+[Thu Apr  9 00:14:30 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:14:30 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:14:30 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:14:30 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:14:30 2015] [debug] 200 OK (0.001506s, 664.011/s).
+[Thu Apr  9 00:15:24 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:15:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:15:24 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:15:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:15:24 2015] [debug] 200 OK (0.001578s, 633.714/s).
+[Thu Apr  9 00:15:57 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:15:57 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:15:57 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:15:57 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:15:57 2015] [debug] 200 OK (0.001589s, 629.327/s).
+[Thu Apr  9 00:16:11 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:16:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:16:11 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:16:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:16:11 2015] [debug] 200 OK (0.001466s, 682.128/s).
+[Thu Apr  9 00:16:33 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:16:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:16:33 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:16:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:16:33 2015] [debug] 200 OK (0.001549s, 645.578/s).
+[Thu Apr  9 00:17:08 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:17:08 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:17:08 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:17:08 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:17:08 2015] [debug] 200 OK (0.002166s, 461.681/s).
+[Thu Apr  9 00:17:22 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:17:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:17:22 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:17:22 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:17:22 2015] [debug] 200 OK (0.001504s, 664.894/s).
+[Thu Apr  9 00:18:17 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:18:17 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:18:17 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:18:17 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:18:17 2015] [debug] 200 OK (0.001584s, 631.313/s).
+[Thu Apr  9 00:18:33 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:18:33 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:18:33 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:18:33 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:18:33 2015] [debug] 200 OK (0.001476s, 677.507/s).
+[Thu Apr  9 00:18:35 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:18:35 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:18:35 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:18:35 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:18:35 2015] [debug] 200 OK (0.001125s, 888.889/s).
+[Thu Apr  9 00:18:36 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:18:36 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:18:36 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:18:36 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:18:36 2015] [debug] 200 OK (0.001465s, 682.594/s).
+[Thu Apr  9 00:19:02 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:19:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:19:02 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:19:02 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:19:02 2015] [debug] 200 OK (0.001496s, 668.449/s).
+[Thu Apr  9 00:19:28 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:19:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:19:28 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:19:28 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:19:28 2015] [debug] 200 OK (0.001617s, 618.429/s).
+[Thu Apr  9 00:20:11 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:20:11 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:20:11 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:20:11 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:20:11 2015] [debug] 200 OK (0.001529s, 654.022/s).
+[Thu Apr  9 00:20:38 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:20:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:20:38 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:20:38 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:20:38 2015] [debug] 200 OK (0.002008s, 498.008/s).
+[Thu Apr  9 00:22:13 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:22:13 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:22:13 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:22:13 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:22:13 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:22:13 2015] [debug] 200 OK (0.013667s, 73.169/s).
+[Thu Apr  9 00:22:18 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:22:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:22:18 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:22:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:22:18 2015] [debug] 200 OK (0.002731s, 366.166/s).
+[Thu Apr  9 00:22:23 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:22:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:22:23 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:22:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:22:23 2015] [debug] 200 OK (0.004647s, 215.193/s).
+[Thu Apr  9 00:22:25 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:22:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:22:25 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:22:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:22:25 2015] [debug] 200 OK (0.001498s, 667.557/s).
+[Thu Apr  9 00:23:00 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:23:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:23:00 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:23:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:23:00 2015] [debug] 200 OK (0.001893s, 528.262/s).
+[Thu Apr  9 00:23:16 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:23:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:23:16 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:23:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:23:16 2015] [debug] 200 OK (0.002178s, 459.137/s).
+[Thu Apr  9 00:23:59 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:23:59 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:23:59 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:23:59 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:23:59 2015] [debug] 200 OK (0.001201s, 832.639/s).
+[Thu Apr  9 00:25:02 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:25:02 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:25:02 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:25:02 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:25:02 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:02 2015] [debug] 200 OK (0.014158s, 70.631/s).
+[Thu Apr  9 00:25:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:25:18 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:25:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:25:18 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:25:18 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:18 2015] [debug] 200 OK (0.008065s, 123.993/s).
+[Thu Apr  9 00:25:21 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:25:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:25:21 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:25:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:21 2015] [debug] 200 OK (0.004087s, 244.678/s).
+[Thu Apr  9 00:25:22 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:25:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:25:22 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:25:22 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:22 2015] [debug] 200 OK (0.004168s, 239.923/s).
+[Thu Apr  9 00:25:23 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:25:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:25:23 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:25:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:23 2015] [debug] 200 OK (0.001541s, 648.929/s).
+[Thu Apr  9 00:25:23 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:25:23 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:25:23 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:25:23 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:25:23 2015] [debug] 200 OK (0.001541s, 648.929/s).
+[Thu Apr  9 00:28:56 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:28:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:28:56 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:28:56 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:28:56 2015] [debug] 200 OK (0.001804s, 554.324/s).
+[Thu Apr  9 00:28:58 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:28:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:28:58 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:28:58 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:28:58 2015] [debug] 200 OK (0.001576s, 634.518/s).
+[Thu Apr  9 00:29:01 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:29:01 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:29:01 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:29:01 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:29:01 2015] [debug] 200 OK (0.001504s, 664.894/s).
+[Thu Apr  9 00:29:04 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:29:04 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:29:04 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:29:04 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:29:04 2015] [debug] 200 OK (0.000774s, 1291.990/s).
+[Thu Apr  9 00:29:05 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:29:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:29:05 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:29:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:29:05 2015] [debug] 200 OK (0.001516s, 659.631/s).
+[Thu Apr  9 00:30:44 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:30:44 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:30:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:30:44 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:30:44 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:30:44 2015] [debug] 200 OK (0.015102s, 66.216/s).
+[Thu Apr  9 00:31:10 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:31:10 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:31:10 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:31:10 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:31:10 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:31:10 2015] [debug] 200 OK (0.010289s, 97.191/s).
+[Thu Apr  9 00:31:22 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:31:22 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:31:22 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:31:22 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:31:22 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:31:22 2015] [debug] 200 OK (0.011539s, 86.663/s).
+[Thu Apr  9 00:31:32 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:31:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:31:32 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:31:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:31:32 2015] [debug] 200 OK (0.004175s, 239.521/s).
+[Thu Apr  9 00:31:34 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:31:34 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:31:34 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:31:34 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:31:34 2015] [debug] 200 OK (0.004423s, 226.091/s).
+[Thu Apr  9 00:31:48 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:31:48 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:31:48 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:31:48 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:31:48 2015] [debug] 200 OK (0.001628s, 614.251/s).
+[Thu Apr  9 00:32:49 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:32:49 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:32:49 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:32:49 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:32:49 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:32:49 2015] [debug] 200 OK (0.015228s, 65.669/s).
+[Thu Apr  9 00:32:51 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:32:51 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:32:51 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:32:51 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:32:51 2015] [debug] 200 OK (0.004177s, 239.406/s).
+[Thu Apr  9 00:32:56 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:32:56 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:32:56 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:32:56 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:32:56 2015] [debug] 200 OK (0.002888s, 346.260/s).
+[Thu Apr  9 00:32:58 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:32:58 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:32:58 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:32:58 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:32:58 2015] [debug] 200 OK (0.000762s, 1312.336/s).
+[Thu Apr  9 00:33:00 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:33:00 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:33:00 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:33:00 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:00 2015] [debug] 200 OK (0.001507s, 663.570/s).
+[Thu Apr  9 00:33:05 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:33:05 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:33:05 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:33:05 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:05 2015] [debug] 200 OK (0.001247s, 801.925/s).
+[Thu Apr  9 00:33:18 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:33:18 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:33:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:33:18 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:33:18 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:18 2015] [debug] 200 OK (0.008894s, 112.435/s).
+[Thu Apr  9 00:33:24 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:33:24 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:33:24 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:33:24 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:24 2015] [debug] 200 OK (0.004386s, 227.998/s).
+[Thu Apr  9 00:33:38 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:33:38 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:33:38 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:33:38 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:33:38 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:38 2015] [debug] 200 OK (0.013679s, 73.105/s).
+[Thu Apr  9 00:33:42 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:33:42 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:33:42 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:33:42 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:33:42 2015] [debug] 200 OK (0.004823s, 207.340/s).
+[Thu Apr  9 00:36:18 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:36:18 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:36:18 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:36:18 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:36:18 2015] [debug] 200 OK (0.000787s, 1270.648/s).
+[Thu Apr  9 00:36:21 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:36:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:36:21 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:36:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:36:21 2015] [debug] 200 OK (0.004254s, 235.073/s).
+[Thu Apr  9 00:36:28 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:36:28 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:36:28 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:36:28 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:36:28 2015] [debug] 200 OK (0.001620s, 617.284/s).
+[Thu Apr  9 00:41:41 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:41:41 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:41:41 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:41:41 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:41:41 2015] [debug] 200 OK (0.000796s, 1256.281/s).
+[Thu Apr  9 00:41:45 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:41:45 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:41:45 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:41:45 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:41:45 2015] [debug] 200 OK (0.001509s, 662.691/s).
+[Thu Apr  9 00:50:25 2015] [debug] Your secret passphrase needs to be changed!!!
+[Thu Apr  9 00:50:25 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:50:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:50:25 2015] [debug] Rendering template "cadastro/banco.html.ep".
+[Thu Apr  9 00:50:25 2015] [debug] Rendering template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:25 2015] [debug] 200 OK (0.013454s, 74.327/s).
+[Thu Apr  9 00:50:27 2015] [debug] GET "/inicio".
+[Thu Apr  9 00:50:27 2015] [debug] Class "Gerencial::Controller::Inicio" is not a controller.
+[Thu Apr  9 00:50:27 2015] [debug] Rendering template "inicio/index.html.ep".
+[Thu Apr  9 00:50:27 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:27 2015] [debug] 200 OK (0.002502s, 399.680/s).
+[Thu Apr  9 00:50:29 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:50:29 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:50:29 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:50:29 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:29 2015] [debug] 200 OK (0.001486s, 672.948/s).
+[Thu Apr  9 00:50:32 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:50:32 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:50:32 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:50:32 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:32 2015] [debug] 200 OK (0.001054s, 948.767/s).
+[Thu Apr  9 00:50:44 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:50:44 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:50:44 2015] [debug] Rendering template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:50:44 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:44 2015] [debug] 200 OK (0.002539s, 393.856/s).
+[Thu Apr  9 00:50:50 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:50:50 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:50:50 2015] [debug] Rendering template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:50:50 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:50 2015] [debug] 200 OK (0.002698s, 370.645/s).
+[Thu Apr  9 00:50:53 2015] [debug] GET "/cadastro/banco".
+[Thu Apr  9 00:50:53 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "banco".
+[Thu Apr  9 00:50:53 2015] [debug] Rendering cached template "cadastro/banco.html.ep".
+[Thu Apr  9 00:50:53 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:50:53 2015] [debug] 200 OK (0.001513s, 660.939/s).
+[Thu Apr  9 00:51:16 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:51:16 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:51:16 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:51:16 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:51:16 2015] [debug] 200 OK (0.001216s, 822.368/s).
+[Thu Apr  9 00:51:19 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:51:19 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:51:19 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:51:19 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:51:19 2015] [debug] 200 OK (0.001500s, 666.667/s).
+[Thu Apr  9 00:51:21 2015] [debug] GET "/cadastro/fornecedor".
+[Thu Apr  9 00:51:21 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "fornecedor".
+[Thu Apr  9 00:51:21 2015] [debug] Rendering cached template "cadastro/fornecedor.html.ep".
+[Thu Apr  9 00:51:21 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:51:21 2015] [debug] 200 OK (0.002330s, 429.185/s).
+[Thu Apr  9 00:51:25 2015] [debug] GET "/cadastro/cliente".
+[Thu Apr  9 00:51:25 2015] [debug] Routing to controller "Gerencial::Controller::Cadastro" and action "cliente".
+[Thu Apr  9 00:51:25 2015] [debug] Rendering cached template "cadastro/cliente.html.ep".
+[Thu Apr  9 00:51:25 2015] [debug] Rendering cached template "layouts/principal.html.ep".
+[Thu Apr  9 00:51:25 2015] [debug] 200 OK (0.002319s, 431.220/s).
