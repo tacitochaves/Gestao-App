@@ -14,5 +14,41 @@
         <div class="aba-titulo">
             <label>Cadastramento de clientes</label>
         </div>
+        <fieldset class="aba-conteudo">
+            <form name="frm-banco" id="frm-banco" method="POST" action="">
+                <table class="grupo-tipo-cli">
+			        <tr>
+				        <td>
+					        <input type="radio" name="tipo_cliente" id="PF" class="css-checkbox" />
+					        <label for="PF" class="css-label">Pessoa Física</label>
+				        </td>
+				        <td>
+					        <input type="radio" name="tipo_cliente" id="PJ" class="css-checkbox" checked="checked"/>
+					        <label for="PJ" class="css-label">Pessoa Jurídica</label>
+				        </td>
+			        </tr>
+		        </table>
+                <div class="campo">
+                    <label class="baixo" for="#nome-cliente">Nome do cliente</label>
+                    <input name="nome-cliente" id="nome-cliente" type="text" />
+                </div>
+                <div class="campo">
+                    <label class="baixo" for="#cep">CEP</label>
+                    <input name="cep" id="cep" type="text" />
+                </div>
+                <div class="break">
+                    <label class="baixo" for="#razao-social">Razão Social</label>
+                    <input name="razao-social" id="razao-social" type="text" />
+                </div>
+                <div class="campo">
+                    <label class="baixo" for="#cnpj">CNPJ</label>
+                    <input name="cnpj" id="cnpj" type="text" />
+                </div>
+                <div class="campo">
+                    <label class="baixo" for="#cpf">CPF</label>
+                    <input name="cpf" id="cpf" type="text" />
+                </div>
+            </form>
+        </fieldset>
     </div>
 </div>

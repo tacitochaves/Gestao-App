@@ -14,10 +14,23 @@
         <div class="aba-titulo">
             <label>Cadastramento de bancos</label>
         </div>
-        <div class="aba-conteudo">
+        <fieldset class="aba-conteudo">
             <form name="frm-banco" id="frm-banco" method="POST" action="">
-                <label>Nome</label>
+                <div class="linha">
+                    <label class="baixo" for="#nome-banco">Nome do banco</label>
+                    <input name="nome-banco" id="nome-banco" type="text" />
+                </div>
+                <div class="linha">
+                    <label class="baixo" for="#num-agencia">Número da agência</label>
+                    <input name="num-agencia" id="num-agencia" type="text" />
+                </div>
+                <div class="linha">
+                    <label class="baixo" for="#conta-corrente">Conta corrente</label>
+                    <input name="conta-corrente" id="conta-corrente" type="text" />
+                </div>
+                <input class="btn-cancelar" type="reset" value="Cancelar">
+                <input id="btn-salvar" name="btn-salvar" type="submit" value="Salvar">
             </form>
-        </div>
+        </fieldset>
     </div>
 </div>

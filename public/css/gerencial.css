@@ -179,13 +179,133 @@ label {
     position: relative;
 }
 .aba-conteudo {
-    padding: 0px 8px 0 8px;
+    padding: 0px 0px 0 8px;
     box-sizing: border-box;
     width: 98%;
     margin: 8px auto;
-    border: 1px solid #B22D00;
+    //border: 1px solid #B22D00;
     font-family: Verdana, Arial;
 }
-.aba-conteudo label {
-    font-size: 11px;
+.linha {
+    margin-bottom: 8px;
 }
+.campo {
+    float: left;
+    //border: 1px solid green;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.break {
+    float: left;
+    clear: both;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.campo label, .linha label, .break label {
+    font-size: 11px;
+    color: #514D4D
+}
+.campo input, .linha input, .break input {
+    border: 1px solid #999999;
+    padding: 7px;
+    font-size: 11px;
+    height: normal;
+    box-sizing: border-box;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+}
+.campo input:focus, .linha input:focus, .break input:focus {
+    box-shadow: 0 0 1px 1px #999999;
+    -moz-box-shadow: 0 0 1px 1px #999999;
+    border-color: #999;
+}
+#nome-banco, #num-agencia, #conta-corrente, #nome-cliente, #razao-social {
+    width: 450px;
+    box-sizing: border-box;
+}
+#cep {
+    width: 150px;
+    box-sizing: border-box;
+}
+#cnpj {
+    width: 138px;
+    box-sizing: border-box;
+}
+#cpf {
+    width: 138px;
+    box-sizing: border-box;
+}
+input[type="submit"], input[type="reset"] {
+    float: right;
+    padding: 7px;
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    width: 90px;
+    border-radius: 0;
+    border: 1px solid #999;
+    background: #999 url('../../img/salvar.png') no-repeat top left;
+    background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 24%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(24%,#ffffff), color-stop(100%,#e5e5e5));
+background: -webkit-linear-gradient(top, #ffffff 24%,#e5e5e5 100%);
+background: -o-linear-gradient(top, #ffffff 24%,#e5e5e5 100%);
+background: -ms-linear-gradient(top, #ffffff 24%,#e5e5e5 100%);
+background: linear-gradient(to bottom, #ffffff 24%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    box-shadow: 0 0 1px 1px #999999;
+}
+#btn-salvar {
+    margin-right: 10px;
+}
+.baixo {
+    display: block;
+}
+// Configuração para o radio buttom tipo de cliente
+input[type="radio"] {
+    left: -999em;
+    position: absolute;
+    top: -80;
+}
+.grupo-tipo-cli {
+    float: right;
+}
+.grupo-tipo-cli label {
+    margin-right: 20px;
+}
+input[type=radio].css-checkbox {
+	position:absolute; 
+   z-index:-1000; left:-1000px; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height:1px; width:1px; 
+	margin:-1px; 
+	padding:0; 
+	border:0;
+}
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:20px;
+	height:15px; 
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:12px;
+    font-family: Verdana, Arial;
+	vertical-align:middle;
+	cursor:pointer;
+}
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -15px;
+}
+label.css-label {
+    background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_8416d96b2257c27f157253882fe3b697.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+// fim da configuração do radio button tipo de cliente
