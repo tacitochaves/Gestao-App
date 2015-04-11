@@ -17,17 +17,17 @@
         <fieldset class="aba-conteudo">
             <form name="frm-banco" id="frm-banco" method="POST" action="">
                 <table class="grupo-tipo-cli">
-			        <tr>
-				        <td>
-					        <input type="radio" name="tipo_cliente" id="PF" class="css-checkbox" />
-					        <label for="PF" class="css-label">Pessoa Física</label>
-				        </td>
-				        <td>
-					        <input type="radio" name="tipo_cliente" id="PJ" class="css-checkbox" checked="checked"/>
-					        <label for="PJ" class="css-label">Pessoa Jurídica</label>
-				        </td>
-			        </tr>
-		        </table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="tipo_cliente" id="PF" class="css-checkbox" />
+                            <label for="PF" class="css-label">Pessoa Física</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="tipo_cliente" id="PJ" class="css-checkbox" checked="checked"/>
+                            <label for="PJ" class="css-label">Pessoa Jurídica</label>
+                        </td>
+                    </tr>
+                </table>
                 <div class="campo">
                     <label class="baixo" for="#nome-cliente">Nome do cliente</label>
                     <input name="nome-cliente" id="nome-cliente" type="text" />
