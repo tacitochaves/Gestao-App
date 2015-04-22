@@ -1,8 +1,8 @@
 % layout 'principal';
 
 <div class="menu-resultado"> 
-    <i class="fa fa-file-o fa-2x"></i>                              
-    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro <i class="fa fa-angle-right"></i> Fornecedor</p>
+    <i class="fa fa-file-o fa-2x"></i> 
+    <p class="resultado-p">Empresa Modelo <i class="fa fa-angle-right"></i> Cadastro</p>
     <div id="content"> 
         <ul id="tabs" class="nav nav-tabs" data-tabs="tabs"> 
             <li><a href="/cadastro/banco">Banco</a></li>      
@@ -14,5 +14,70 @@
         <div class="aba-titulo">
             <label>Cadastramento de fornecedores</label>
         </div>
+        <fieldset class="aba-conteudo-elemento-horizontal">
+            <form method="POST" name="frm-fornecedor" id="frm-fornecedor" action="#">
+                <section>
+                    <label for="nome-fornecedor">Nome</label>
+                    <input type="text" name="nome-fornecedor" id="nome-fornecedor" autofocus />
+                </section>
+                <section>
+                    <label for="tel-fornecedor">Telefone</label>
+                    <input type="text" name="tel-fornecedor" id="tel-fornecedor" />
+                    <label for="cel-fornecedor">Celular</label>
+                    <input type="text" name="cel-fornecedor" id="cel-fornecedor" />
+                </section>
+                <section>
+                    <label for="ie-fornecedor">I.E.</label>
+                    <input type="text" name="ie-fornecedor" id="ie-fornecedor" />
+                    <label for="cnpj-fornecedor">CNPJ</label>
+                    <input type="text" name="cnpj-fornecedor" id="cnpj-fornecedor" />
+                </section>
+                <section>
+                    <label for="endereco-fornecedor">Endereço</label>
+                    <input type="text" name="endereco-fornecedor" id="endereco-fornecedor" />
+                </section>
+                <section>
+                    <label for="estado-fornecedor">Estado</label>
+                    <select id="estado-fornecedor">
+                        <option value="default">Escolha um estado</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="MA">Maranhão</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="bairo-fornecedor">Bairro</label>
+                    <select id="bairro-fornecedor">
+                        <option value="default">Escolha um bairro</option>
+                        <option value="cohatrac">Cohatrac</option>
+                        <option value="cohab">Cohab</option>
+                        <option value="Anil">Anil</option>
+                    </select>
+                    <label for="cidade-fornecedor">Cidade</label>
+                    <select id="cidade-fornecedor">
+                        <option value="default">Escolha uma cidade</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Belo Horizonte</option>
+                        <option value="MA">São Luís</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="cep-fornecedor">CEP</label>
+                    <input type="text" name="cep-fornecedor" id="cep-fornecedor" />
+                </section>
+                <section>
+                    <label for="email-fornecedor">E-mail</label>
+                    <input type="text" name="email-fornecedor" id="email-fornecedor" />
+                </section>
+                <section>
+                    <label id="obs-label-fornecedor" for="obs-fornecedor">Observações</label>
+                    <textarea id="obs-fornecedor" name="obs-fornecedor" rows="3" cols=""></textarea>
+                </section>
+                <input class="btn-cancelar" type="reset" id="cancelar-cli" value="Cancelar" />
+                <input class="btn-salvar" type="submit" id="salvar-cli" value="Salvar" />
+            </form>
+        </fieldset>
     </div>
 </div>

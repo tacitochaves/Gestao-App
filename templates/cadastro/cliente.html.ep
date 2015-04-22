@@ -14,40 +14,98 @@
         <div class="aba-titulo">
             <label>Cadastramento de clientes</label>
         </div>
-        <fieldset class="aba-conteudo">
-            <form name="frm-banco" id="frm-banco" method="POST" action="">
-                <table class="grupo-tipo-cli">
-                    <tr>
-                        <td>
-                            <input type="radio" name="tipo_cliente" id="PF" class="css-checkbox" />
-                            <label for="PF" class="css-label">Pessoa Física</label>
-                        </td>
-                        <td>
-                            <input type="radio" name="tipo_cliente" id="PJ" class="css-checkbox" checked="checked"/>
-                            <label for="PJ" class="css-label">Pessoa Jurídica</label>
-                        </td>
-                    </tr>
-                </table>
-                <div class="campo">
-                    <label class="baixo" for="#nome-cliente">Nome do cliente</label>
-                    <input name="nome-cliente" id="nome-cliente" type="text" />
-                </div>
-                <div class="campo">
-                    <label class="baixo" for="#cep">CEP</label>
-                    <input name="cep" id="cep" type="text" />
-                </div>
-                <div class="break">
-                    <label class="baixo" for="#razao-social">Razão Social</label>
-                    <input name="razao-social" id="razao-social" type="text" />
-                </div>
-                <div class="campo">
-                    <label class="baixo" for="#cnpj">CNPJ</label>
-                    <input name="cnpj" id="cnpj" type="text" />
-                </div>
-                <div class="campo">
-                    <label class="baixo" for="#cpf">CPF</label>
-                    <input name="cpf" id="cpf" type="text" />
-                </div>
+        <fieldset class="aba-conteudo-elemento-horizontal">
+            <form method="POST" name="frm-cli" id="frm-cli" action="#">
+                <section>
+                    <label for="cod-cli">Código</label>
+                    <input type="text" name="cod-cli" id="cod-cli" />
+                    <input type="checkbox" name="tipo-cli" id="tipo-cli" style="vertical-align: middle;" value="check"/>
+                    <label for="tipo-cli">Empresa</label>
+                </section>
+                <section>
+                    <label for="nome-cli">Nome</label>
+                    <input type="text" name="nome-cli" id="nome-cli" />
+                </section>
+                <section class="pode-esconder">
+                    <label for="data-nasc-cli">Data Nasc.</label>
+                    <input type="text" name="nome-cli" id="data-nasc-cli" class="data" />
+                    <label for="sexo-cli">Sexo</label>
+                    <select id="sexo-cli">
+                        <option value="Selecione um sexo" default>Selecione um sexo</option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                    <label style="font-weight: bold;">29 anos</label>
+                </section>
+                <section>
+                    <label for="tel-cli">Telefone</label>
+                    <input type="text" name="tel-cli" id="tel-cli" class="fone" />
+                    <label for="cel-cli">Celular</label>
+                    <input type="text" name="cel-cli" id="cel-cli" class="fone" />
+                </section>
+                <section class="pode-esconder">
+                    <label for="rg-cli">RG</label>
+                    <input type="text" name="rg-cli" id="rg-cli" class="rg" />
+                    <label for="cpf-cli">CPF</label>
+                    <input type="text" name="cpf-cli" id="cpf-cli" class="cpf" />
+                </section>
+                <section class="esconder">
+                    <label for="ie-cli">I.E.</label>
+                    <input type="text" name="ie-cli" id="ie-cli" />
+                    <label for="cnpj-cli">CNPJ</label>
+                    <input type="text" name="cnpj-cli" id="cnpj-cli" />
+                </section>
+                <section>
+                    <label for="endereco-cli">Endereço</label>
+                    <input type="text" name="endereco-cli" id="endereco-cli" />
+                </section>
+                <section>
+                    <label for="estado-cli">Estado</label>
+                    <select id="estado-cli">
+                        <option value="default">Escolha um estado</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="MA">Maranhão</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="bairo-cli">Bairro</label>
+                    <select id="bairro-cli">
+                        <option value="default">Escolha um bairro</option>
+                        <option value="cohatrac">Cohatrac</option>
+                        <option value="cohab">Cohab</option>
+                        <option value="Anil">Anil</option>
+                    </select>
+                    <label for="cidade-cli">Cidade</label>
+                    <select id="cidade-cli">
+                        <option value="default">Escolha uma cidade</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Belo Horizonte</option>
+                        <option value="MA">São Luís</option>
+                    </select>
+                </section>
+                <section>
+                    <label for="cep-cli">CEP</label>
+                    <input type="text" name="cep-cli" id="cep-cli" />
+                </section>
+                <section class="pode-esconder">
+                    <label for="pai-cli">Pai</label>
+                    <input type="text" name="pai-cli" id="pai-cli" />
+                    <label for="mãe-cli">Mãe</label>
+                    <input type="text" name="mae-cli" id="mae-cli" />
+                </section>
+                <section>
+                    <label for="email-cli">E-mail</label>
+                    <input type="text" name="email-cli" id="email-cli" />
+                </section>
+                <section>
+                    <label id="obs-label-cli" for="obs-cli">Observações</label>
+                    <textarea id="obs-cli" name="obs-cli" rows="3" cols=""></textarea>
+                </section>
+                <input class="btn-cancelar" type="reset" id="cancelar-cli" value="Cancelar" />
+                <input class="btn-salvar" type="submit" id="salvar-cli" value="Salvar" />
             </form>
         </fieldset>
     </div>

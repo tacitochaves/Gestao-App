@@ -21,6 +21,10 @@ label {
     font-family: "Verdana", "Arial";
 }
 
+.sem-texto {
+    border: 1px solid red;
+}
+
 .cabecalho img {
     width: 200px;
     height: 40px;
@@ -33,7 +37,7 @@ label {
     color: white;
     font-weight: bold;
     font-size: 12px;
-    padding: 4px 12px;
+    padding: 8px 12px;
     text-transform: uppercase;
     link-style: none;
     width: 95px;
@@ -46,7 +50,7 @@ label {
 .btn-sair {
     float: right;
     width: 30px;
-    padding: 4px 7px;
+    padding: 8px 8px;
     font-family: "Verdana", "Arial";
     color: white;
     font-size: 11px;
@@ -88,7 +92,7 @@ label {
 .menu li a {
     color: #162141; 
     text-decoration: none; 
-    padding: 5px 10px;/*padding alterado após carregar o bootstrap*/
+    padding: 8px 10px;/*padding alterado após carregar o bootstrap*/
     display: inline-block;
 }
 .direita {
@@ -98,7 +102,7 @@ label {
     color: white;
     background-color: #B22D00;
 }
-.menu li a:focus {
+.menu li a:active {
     color: white;
     background-color: #B22D00;
 }
@@ -159,6 +163,7 @@ label {
     clear: both;
     border: 1px solid #DDD;
     border-top-color: transparent;
+    margin-bottom: 20px;
 }
 /*Fim - Configuração para abas*/
 .aba-titulo {
@@ -173,18 +178,26 @@ label {
     color: #B22D00;
     font-weight: bold;
     text-transform: uppercase;
-    top: 1px;
+    top: -1px;
     font-size: 13px;
     font-family: Verdana, Arial;
     position: relative;
 }
-.aba-conteudo {
+.aba-conteudo,.aba-conteudo-elemento-horizontal {
     padding: 0px 0px 0 8px;
     box-sizing: border-box;
     width: 98%;
     margin: 8px auto;
     //border: 1px solid #B22D00;
     font-family: Verdana, Arial;
+    background-color: #F0F0F0;
+}
+.aba-conteudo-elemento-horizontal {
+    padding: 8px 0px 0 8px;
+}
+.container-tipo-cliente {
+    background-color: #F0F0F0;
+    border: 1px solid transparent;
 }
 .linha {
     margin-bottom: 8px;
@@ -219,20 +232,8 @@ label {
     -moz-box-shadow: 0 0 1px 1px #999999;
     border-color: #999;
 }
-#nome-banco, #num-agencia, #conta-corrente, #nome-cliente, #razao-social {
+#nome-banco, #num-agencia, #conta-corrente {
     width: 450px;
-    box-sizing: border-box;
-}
-#cep {
-    width: 150px;
-    box-sizing: border-box;
-}
-#cnpj {
-    width: 138px;
-    box-sizing: border-box;
-}
-#cpf {
-    width: 138px;
     box-sizing: border-box;
 }
 input[type="submit"], input[type="reset"] {
@@ -256,13 +257,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 input[type="submit"]:hover, input[type="reset"]:hover {
     box-shadow: 0 0 1px 1px #999999;
 }
-#btn-salvar {
+#btn-salvar, .btn-salvar {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.btn-cancelar {
+    box-sizing: border-box;
     margin-right: 10px;
 }
 .baixo {
     display: block;
 }
-// Configuração para o radio buttom tipo de cliente
+/* Configuração para o radio buttom tipo de cliente
 input[type="radio"] {
     left: -999em;
     position: absolute;
@@ -308,4 +315,74 @@ label.css-label {
         -ms-user-select: none;
         user-select: none;
 }
-// fim da configuração do radio button tipo de cliente
+ fim da configuração do radio button tipo de cliente */
+section {
+    display: block;
+    margin-bottom: 10px;
+}
+.aba-conteudo-elemento-horizontal label, .aba-conteudo-elemento-horizontal input {
+    font-family: Verdana, Arial;
+    font-size: 12px;
+}
+.aba-conteudo-elemento-horizontal label {
+    display: inline-block;
+    width: 9%;
+}
+.aba-conteudo-elemento-horizontal input, .aba-conteudo-elemento-horizontal select {
+    border: 1px solid #999;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 0;
+}
+.aba-conteudo-elemento-horizontal input[type="text"], .aba-conteudo-elemento-horizontal input[type="date"], .aba-conteudo-elemento-horizontal select {
+    margin-right: 10px;
+    background-color: #FFF;
+}
+#tipo-cli {
+    margin-right: -3px;
+}
+#nome-cli, #nome-fornecedor, #endereco-cli, #endereco-fornecedor, #estado-cli, #estado-fornecedor, #email-cli, #email-fornecedor {
+    width: 85%;
+}
+#sexo-cli {
+    width: 185px;
+    position: relative;
+    left: -30px;
+}
+#cel-cli, #cel-fornecedor {
+    position: relative;
+    left: -30px;
+}
+#cpf-cli, #cnpj-cli, #cnpj-fornecedor {
+    position: relative;
+    left: -30px;
+}
+#bairro-cli, #cep-cli, #pai-cli, #bairro-fornecedor, #cep-fornecedor {
+    width: 38%;
+}
+#cidade-cli, #mae-cli, #cidade-fornecedor {
+    width: 39%;
+    position: relative;
+    left: -30px;
+}
+#obs-label-cli, #obs-label-fornecedor {
+    position: relative;
+    top: -28px;
+}
+#obs-cli, #obs-fornecedor {
+    width: 85%;
+    border: 1px solid #999;
+    resize: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+.aba-conteudo-elemento-horizontal section input[type="text"]:focus, .aba-conteudo-elemento-horizontal section input[type="number"]:focus, .aba-conteudo-elemento-horizontal section input[type="email"]:focus, .aba-conteudo-elemento-horizontal section input[type="date"]:focus, .aba-conteudo-elemento-horizontal section textarea:focus {
+    background-color: #FFF5D6;
+}
+.esconder {
+    display: none;
+}
+.obrigatorio {
+    border-color: red;
+}
