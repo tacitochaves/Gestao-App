@@ -4,10 +4,12 @@ var checaVazio = function() {
   
     formulario.each(function() {
         var elementos = formulario.find('input');
+        var msgCampoVazio = formulario.find('.msg-campo-vazio');
     
         for (var i = 0; i < elementos.length; i++) {
             if ( $(elementos[i]).attr('type') == "text" && $(elementos[i]).val() == "" ) {
                 $(elementos[i]).css({ 'border-color' : 'red' });
+                mostraMsgCampoVazio('.msg-campo-vazio');
             }
             else {
                 $(elementos[i]).css({ 'border-color' : '#999' });
@@ -48,6 +50,10 @@ var maskCPF = function(elemento) {
 // máscara para rg
 var maskRG = function(elemento) {
     $(elemento).mask("999999999999-9");
+};
+
+var mostraMsgCampoVazio = function(campoVazio) {
+    $(campoVazio).fadeIn();
 };
 
 // roda todas as funções

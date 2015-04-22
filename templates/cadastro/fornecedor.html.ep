@@ -75,6 +75,7 @@
                     <label id="obs-label-fornecedor" for="obs-fornecedor">Observações</label>
                     <textarea id="obs-fornecedor" name="obs-fornecedor" rows="3" cols=""></textarea>
                 </section>
+                <span class="msg-campo-vazio">Os campos marcados em vermelho são obrigatórios!!</span>
                 <input class="btn-cancelar" type="reset" id="cancelar-cli" value="Cancelar" />
                 <input class="btn-salvar" type="submit" id="salvar-cli" value="Salvar" />
             </form>

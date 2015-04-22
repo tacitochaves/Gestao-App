@@ -104,6 +104,7 @@
                     <label id="obs-label-cli" for="obs-cli">Observações</label>
                     <textarea id="obs-cli" name="obs-cli" rows="3" cols=""></textarea>
                 </section>
+                <span class="msg-campo-vazio">Os campos marcados em vermelho são obrigatórios!!</span>
                 <input class="btn-cancelar" type="reset" id="cancelar-cli" value="Cancelar" />
                 <input class="btn-salvar" type="submit" id="salvar-cli" value="Salvar" />
             </form>

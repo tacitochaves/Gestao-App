@@ -28,6 +28,7 @@
                     <label class="baixo" for="#conta-corrente">Conta corrente</label>
                     <input name="conta-corrente" id="conta-corrente" type="text" />
                 </div>
+                <span class="msg-campo-vazio">Os campos marcados em vermelho são obrigatórios!!</span>
                 <input class="btn-cancelar" type="reset" value="Cancelar">
                 <input id="btn-salvar" name="btn-salvar" type="submit" value="Salvar">
             </form>

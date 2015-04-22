@@ -386,3 +386,11 @@ section {
 .obrigatorio {
     border-color: red;
 }
+.msg-campo-vazio {
+    display: none;
+    color: red;
+    float: left;
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: Verdana, Arial;
+}
