@@ -2,12 +2,15 @@
 var checaVazio = function() {
     var formulario = $('form');
   
+    // controla a submissão do formulário
+    var cont = 0;
+
     formulario.each(function() {
         var elementos = formulario.find('input');
-        var msgCampoVazio = formulario.find('.msg-campo-vazio');
-    
+
         for (var i = 0; i < elementos.length; i++) {
             if ( $(elementos[i]).attr('type') == "text" && $(elementos[i]).val() == "" ) {
+                cont++;
                 $(elementos[i]).css({ 'border-color' : 'red' });
                 mostraMsgCampoVazio('.msg-campo-vazio');
             }
@@ -16,6 +19,11 @@ var checaVazio = function() {
             }
         }
     });
+
+    if ( cont == 0 ) {
+        //alert("formulário submetido com sucesso " + cont + $(this));
+        $('form').submit();
+    }
     return false; 
 };
 

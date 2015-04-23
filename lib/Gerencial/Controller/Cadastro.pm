@@ -3,6 +3,10 @@ use Mojo::Base 'Mojolicious::Controller';
 
 sub banco {
     my $self = shift;
+   
+    my $banco = $self->param("nome-banco") || '';
+
+    $self->render( stash => "$banco");
 }
 
 sub cliente {
