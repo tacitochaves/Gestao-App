@@ -22,7 +22,7 @@ var checaVazio = function() {
 
     if ( cont == 0 ) {
         //alert("formulário submetido com sucesso " + cont + $(this));
-        $('form').submit();
+        $('#frm-banco').submit();
     }
     return false; 
 };

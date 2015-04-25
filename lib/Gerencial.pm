@@ -1,9 +1,18 @@
 package Gerencial;
 use Mojo::Base 'Mojolicious';
 
+use Gerencial::Schema;
+
 # This method will run once at server start
 sub startup {
     my $self = shift;
+
+    # conexão com o banco
+    $self->helper(
+        schema => sub {
+            return Gerencial::Schema->connect('dbi:mysql:dbname=Gerencial;host=192.168.254.205', 'chaves', 'ildenice');
+        }
+    );
 
     # Router
     my $r = $self->routes;
@@ -17,7 +26,7 @@ sub startup {
     $r->get('/inicio')->to( controller => 'Inicio', action => 'index' );
 
     # rota para tela de cadastro
-    $r->get('/cadastro/:action')->to( controller => 'Cadastro' );
+    $r->any('/cadastro/:action')->to( controller => 'Cadastro' );
 }
 
 1;
