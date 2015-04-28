@@ -10,7 +10,7 @@ sub startup {
     # conexão com o banco
     $self->helper(
         schema => sub {
-            return Gerencial::Schema->connect('dbi:mysql:dbname=Gerencial;host=192.168.254.205', 'chaves', 'ildenice');
+            return Gerencial::Schema->connect('dbi:mysql:dbname=Gerencial;host=192.168.5.205', 'chaves', 'ildenice');
         }
     );
 

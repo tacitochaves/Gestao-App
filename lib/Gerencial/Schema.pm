@@ -17,4 +17,14 @@ __PACKAGE__->load_namespaces;
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
+
+sub init_db {
+    return __PACKAGE__->connect(
+        'dbi:mysql:dbname=Gerencial;host=192.168.5.205',
+        'chaves',
+        'ildenice',
+        { mysql_enable_utf8 => 1 }
+    );
+}
+
 1;
