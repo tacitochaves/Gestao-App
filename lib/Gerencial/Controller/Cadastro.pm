@@ -30,7 +30,7 @@ sub banco {
                 return $self->render( 
                     mensagem => {
                         type => 'aviso',
-                        text => 'Banco j&aacute; está cadastrado no sistema!'
+                        text => "O Banco $nome já está cadastrado no sistema!"
                     }
                 );
             }

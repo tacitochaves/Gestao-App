@@ -15,6 +15,7 @@
     <link href="../css/tabs.css" rel="stylesheet" type="text/css" />
     <script src="../js/bootstrap.min.js"></script> 
     <link rel="stylesheet" href="../css/gerencial.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
     <title>Controle Gerencial de Finanças</title>
 </head>
