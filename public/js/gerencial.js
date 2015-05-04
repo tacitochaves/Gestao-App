@@ -1,78 +1,78 @@
-//checa campo vazio
-var checaVazio = function() {
-    var formulario = $('form');
-  
-    // controla a submissão do formulário
-    var cont = 0;
+$('form').submit(function() {
 
-    formulario.each(function() {
-        var elementos = formulario.find('input');
+    var formulario = $(this);
+    var obrigatorio = $('.obrigatorio');
+    var conteudo = verificaVazio($(obrigatorio));
+    
+    if ( ! conteudo ) {
+    
+        $.ajax({
+            url: '/cadastro/banco',
+            type: 'POST',
+            data: $('form').serialize(),
+            dataType: 'json',
+            success: function( data ) {
+                $('.mensagem-modal').html(
+                    '<div class="icone">' +
+                    '</div>' +
+                    '<p>' + data.mensagem + '</p>' +
+                    '<a href="#" class="close">Fechar' + '</a>'
+                );
+                $('.mensagem-modal, .sobreposicao').fadeIn(retiraModal());
+            },
+            error: function() {
+                alert("Error");
+            },
+            complete: function() {
+                limpaCampo();
+                focoText();
+                $('.msg-campo-vazio').fadeOut();
+            },
 
-        for (var i = 0; i < elementos.length; i++) {
-            if ( $(elementos[i]).attr('type') == "text" && $(elementos[i]).val() == "" ) {
-                cont++;
-                $(elementos[i]).css({ 'border-color' : 'red' });
-                mostraMsgCampoVazio('.msg-campo-vazio');
-            }
-            else {
-                $(elementos[i]).css({ 'border-color' : '#999' });
-            }
+        });
+    }
+    return false;
+});
+
+// verifica se o campo está vazio
+var verificaVazio = function(texto) {
+    var retornado = undefined;
+    
+    texto.each(function() {
+        var $this = $(this);
+        var valor = $this.val().trim();
+    
+        if ( valor === '' ) {
+            $this.addClass('vazio');
+            mostraMsgCampoVazio('.msg-campo-vazio');
+            retornado = true;
+        }
+        else if ( valor !== '' && $this.closest('div').filter('vazio') ) {
+            $this.removeClass('vazio');
         }
     });
-
-    if ( cont == 0 ) {
-        //alert("formulário submetido com sucesso " + cont + $(this));
-        $('#frm-banco').submit();
-    }
-    return false; 
+    
+    return retornado == true ? true : false;
+    
 };
 
-// checa se o cadastro é cliente pessoa física ou jurídica
-var ativaEmpresa = function() {
-    var isCheck = $(this).is(":checked");
-    if (isCheck) {
-        $('.pode-esconder').fadeOut();
-        $('.esconder').fadeIn();
-    }
-    else {
-        $('.pode-esconder').fadeIn();
-        $('.esconder').fadeOut();
-    }
+// limpa o campo após o submit
+var limpaCampo = function() {
+    $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+    $(':checkbox, :radio').prop('checked', false);
 };
-
-// máscara para data
-var maskDate = function(elemento) {
-    $(elemento).mask("99/99/9999");
-};
-
-// máscara para telefone fixo e celular
-var maskFone = function(elemento) {
-    $(elemento).mask("(99) 9999-9999");
-};
-
-// máscara para cpf
-var maskCPF = function(elemento) {
-    $(elemento).mask("999.999.999-99");
-};
-
-// máscara para rg
-var maskRG = function(elemento) {
-    $(elemento).mask("999999999999-9");
+    
+// dá o foco no primeiro campo texto
+var focoText = function() {
+    $('input:text').first().focus();
 };
 
 var mostraMsgCampoVazio = function(campoVazio) {
     $(campoVazio).fadeIn();
 };
 
-// roda todas as funções
-var rodarFuncao = function() {
-    $('#tipo-cli').click(ativaEmpresa);
-    maskDate('.data');
-    maskFone('.fone');
-    maskCPF('.cpf');
-    maskRG(".rg");
-    $('input[type="submit"]').click(checaVazio);
-
+var retiraModal = function() {
+    $('.sobreposicao, .close').on('click', function() {
+        $('.sobreposicao, .mensagem-modal').fadeOut();
+    });
 };
-
-rodarFuncao();

@@ -394,3 +394,6 @@ section {
     font-size: 11px;
     font-family: Verdana, Arial;
 }
+.vazio {
+    border-color: red;
+}

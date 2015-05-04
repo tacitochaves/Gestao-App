@@ -1,17 +1,19 @@
 .mensagem-modal {
-    background-color: #FFF;
-    border: 1px solid #000;
-    height: 180px;
-    padding: 10px;
+    background-color: #F4F4C6;
+    border: 1px solid #B22D00;
+    height: 150px;
     width: 380px;
     position: fixed;
     top: 40%;
     left: 50%;
     margin: -75px 0 0 -200px;
     z-index: 1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
 }
 .sobreposicao {
- //   position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -22,10 +24,37 @@
     display: none;
 }
 .mensagem-modal .close {
-    background-color: #FF1A2D;
+    background-color: #B22D00;
     color: #FFF;
     padding: 5px;
     position: absolute;
     right: -25px;
     top: -12px;
+    font-family: Verdana, Arial;
+}
+.mensagem-modal .icone {
+    margin-top: 12%;
+    float: left;
+    text-align: center;
+}
+.mensagem-modal p {
+    font-family: Verdana, Arial;
+    font-size: 13px;
+    text-align: center;
+    color: #000508;
+    margin-top: 17%;
+    margin-left: 5px;
+    float: left;
+}
+.fa-informacao {
+    color: #59ADF8;
+}
+.fa-sucesso {
+    color: #A2CF00;
+}
+.fa-perigo {
+    color: #F2D636;
+}
+input[type="text"].vazio {
+  border-color: #FC9B9F;
 }

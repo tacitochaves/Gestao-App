@@ -4,11 +4,6 @@ use Mojo::Base 'Gerencial::Controller::Base';
 sub banco {
     my $self = shift;
 
-        #$self->respond_to( 
-        #    json => { json => { mensagem => 'Dados enviado com sucesso', id => '1' } },
-        #    html => { template => 'cadastro/banco' },
-        #);
-
     if ( $self->is_post ) {
 
         # obtendo parâmetros do form
@@ -32,24 +27,30 @@ sub banco {
                 } );
             }
             else {
-                return $self->respond_to( 
-                        json => { json => { mensagem => "O Banco $nome já está cadastrado no sistema!", type => 'informacao' } },
-                        html => { template => 'cadastro/banco' },
+                return $self->render( 
+                    mensagem => {
+                        type => 'informacao',
+                        text => "O Banco $nome já está cadastrado no sistema!"
+                    }
                 );
             }
 
             # sucesso 
             if ( $banco && $banco->in_storage ) {
-                return $self->respond_to(
-                        json => { json => { mensagem => "Cadastro realizado com sucesso!", type => 'sucesso' } },
-                        html => { template => 'cadastro/banco' },
+                return $self->render(
+                    mensagem => {
+                        type => 'sucesso',
+                        text => 'Cadastro realizado com sucesso!'
+                    }
                 );
             }
 
             # erro
-            return $self->respond_to(
-                json => { json => { mensagem => "Erro ao tentar salvar os dados do banco!", type => 'perigo' } },
-                html => { template => 'cadastro/banco' },
+            return $self->render(
+                mensagem => {
+                    type => 'perigo',
+                    text => 'Erro ao tentar salvar os dados do banco!'
+                }
             );
 
         }

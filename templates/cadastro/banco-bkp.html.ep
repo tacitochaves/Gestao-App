@@ -18,23 +18,32 @@
             <form name="frm-banco" id="frm-banco" method="POST" action="">
                 <div class="linha">
                     <label class="baixo" for="#nome-banco">Nome do banco</label>
-                    <input name="nome-banco" id="nome-banco" class="obrigatorio" type="text" />
+                    <input name="nome-banco" id="nome-banco" type="text" />
                 </div>
                 <div class="linha">
                     <label class="baixo" for="#num-agencia">Número da agência</label>
-                    <input name="num-agencia" id="num-agencia" class="obrigatorio" type="text" />
+                    <input name="num-agencia" id="num-agencia" type="text" />
                 </div>
                 <div class="linha">
                     <label class="baixo" for="#conta-corrente">Conta corrente</label>
-                    <input name="conta-corrente" id="conta-corrente" class="obrigatorio" type="text" />
+                    <input name="conta-corrente" id="conta-corrente" type="text" />
                 </div>
                 <span class="msg-campo-vazio">Os campos marcados em vermelho são obrigatórios!!</span>
                 <input class="btn-cancelar" type="reset" value="Cancelar">
                 <input id="btn-salvar" name="btn-salvar" type="submit" value="Salvar">
             </form>
         </fieldset>
-        <div class="mensagem-modal">
-        </div>
-        <div class="sobreposicao"></div>
+        % if ( $mensagem ) {
+            <div class="mensagem-modal">
+                <div class="icone">
+                    <i class="fa fa-<%= $mensagem->{type} %> fa-3x"></i>
+                </div>
+                <p>
+                    <%= $mensagem->{text} %>
+                </p>
+                <a href="#" class="close">Fechar</a> 
+            </div>
+            <div class="sobreposicao"></div>
+        % }
     </div>
 </div>
