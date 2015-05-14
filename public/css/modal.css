@@ -33,18 +33,19 @@
     font-family: Verdana, Arial;
 }
 .mensagem-modal .icone {
-    margin-top: 12%;
+    margin-top: 2%;
     float: left;
     text-align: center;
+    margin-left: 42%;
+    margin-bottom: 10px;
 }
 .mensagem-modal p {
     font-family: Verdana, Arial;
     font-size: 13px;
     text-align: center;
     color: #000508;
-    margin-top: 17%;
     margin-left: 5px;
-    float: left;
+    clear: both;
 }
 .fa-informacao {
     color: #59ADF8;
@@ -55,6 +56,6 @@
 .fa-perigo {
     color: #F2D636;
 }
-input[type="text"].vazio {
+input[type="text"].vazio, select.vazio {
   border-color: #FC9B9F;
 }

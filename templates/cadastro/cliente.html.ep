@@ -18,20 +18,20 @@
             <form method="POST" name="frm-cli" id="frm-cli" action="#">
                 <section>
                     <label for="cod-cli">Código</label>
-                    <input type="text" name="cod-cli" id="cod-cli" />
-                    <input type="checkbox" name="tipo-cli" id="tipo-cli" style="vertical-align: middle;" value="check"/>
+                    <input type="text" name="cod-cli" id="cod-cli" class="obrigatorio" autofocus />
+                    <input type="checkbox" name="tipo-cli" id="tipo-cli" style="vertical-align: middle;" value=""/>
                     <label for="tipo-cli">Empresa</label>
                 </section>
                 <section>
                     <label for="nome-cli">Nome</label>
-                    <input type="text" name="nome-cli" id="nome-cli" />
+                    <input type="text" name="nome-cli" id="nome-cli" class="obrigatorio" />
                 </section>
                 <section class="pode-esconder">
                     <label for="data-nasc-cli">Data Nasc.</label>
-                    <input type="text" name="nome-cli" id="data-nasc-cli" class="data" />
+                    <input type="text" name="data-nasc-cli" id="data-nasc-cli" class="data obrigatorio" />
                     <label for="sexo-cli">Sexo</label>
-                    <select id="sexo-cli">
-                        <option value="Selecione um sexo" default>Selecione um sexo</option>
+                    <select name="sexo" type="select-one" id="sexo-cli" class="obrigatorio">
+                        <option value="" default>Selecione um sexo</option>
                         <option value="M">Masculino</option>
                         <option value="F">Feminino</option>
                     </select>
@@ -39,30 +39,30 @@
                 </section>
                 <section>
                     <label for="tel-cli">Telefone</label>
-                    <input type="text" name="tel-cli" id="tel-cli" class="fone" />
+                    <input type="text" name="tel-cli" id="tel-cli" class="fone obrigatorio" />
                     <label for="cel-cli">Celular</label>
                     <input type="text" name="cel-cli" id="cel-cli" class="fone" />
                 </section>
                 <section class="pode-esconder">
                     <label for="rg-cli">RG</label>
-                    <input type="text" name="rg-cli" id="rg-cli" class="rg" />
+                    <input type="text" name="rg-cli" id="rg-cli" class="rg obrigatorio" />
                     <label for="cpf-cli">CPF</label>
-                    <input type="text" name="cpf-cli" id="cpf-cli" class="cpf" />
+                    <input type="text" name="cpf-cli" id="cpf-cli" class="cpf obrigatorio" />
                 </section>
                 <section class="esconder">
                     <label for="ie-cli">I.E.</label>
-                    <input type="text" name="ie-cli" id="ie-cli" />
+                    <input type="text" name="ie-cli" id="ie-cli" class="ie obrigatorio" />
                     <label for="cnpj-cli">CNPJ</label>
-                    <input type="text" name="cnpj-cli" id="cnpj-cli" />
+                    <input type="text" name="cnpj-cli" id="cnpj-cli" class="cnpj obrigatorio" />
                 </section>
                 <section>
                     <label for="endereco-cli">Endereço</label>
-                    <input type="text" name="endereco-cli" id="endereco-cli" />
+                    <input type="text" name="endereco-cli" id="endereco-cli" class="obrigatorio" />
                 </section>
                 <section>
                     <label for="estado-cli">Estado</label>
-                    <select id="estado-cli">
-                        <option value="default">Escolha um estado</option>
+                    <select name="estado" type="select-one" id="estado-cli" class="obrigatorio">
+                        <option value="" default>Escolha um estado</option>
                         <option value="RJ">Rio de Janeiro</option>
                         <option value="SP">São Paulo</option>
                         <option value="MG">Minas Gerais</option>
@@ -71,15 +71,15 @@
                 </section>
                 <section>
                     <label for="bairo-cli">Bairro</label>
-                    <select id="bairro-cli">
-                        <option value="default">Escolha um bairro</option>
+                    <select name="bairro" type="select-one" id="bairro-cli" class="obrigatorio">
+                        <option value="" default>Escolha um bairro</option>
                         <option value="cohatrac">Cohatrac</option>
                         <option value="cohab">Cohab</option>
                         <option value="Anil">Anil</option>
                     </select>
                     <label for="cidade-cli">Cidade</label>
-                    <select id="cidade-cli">
-                        <option value="default">Escolha uma cidade</option>
+                    <select name="cidade" type="select-one" id="cidade-cli" class="obrigatorio">
+                        <option value="" default>Escolha uma cidade</option>
                         <option value="RJ">Rio de Janeiro</option>
                         <option value="SP">São Paulo</option>
                         <option value="MG">Belo Horizonte</option>
@@ -88,17 +88,17 @@
                 </section>
                 <section>
                     <label for="cep-cli">CEP</label>
-                    <input type="text" name="cep-cli" id="cep-cli" />
+                    <input type="text" name="cep-cli" id="cep-cli" class="cep obrigatorio" />
                 </section>
                 <section class="pode-esconder">
                     <label for="pai-cli">Pai</label>
-                    <input type="text" name="pai-cli" id="pai-cli" />
+                    <input type="text" name="pai-cli" id="pai-cli" class="obrigatorio" />
                     <label for="mãe-cli">Mãe</label>
-                    <input type="text" name="mae-cli" id="mae-cli" />
+                    <input type="text" name="mae-cli" id="mae-cli" class="obrigatorio" />
                 </section>
                 <section>
                     <label for="email-cli">E-mail</label>
-                    <input type="text" name="email-cli" id="email-cli" />
+                    <input type="text" name="email-cli" id="email-cli" class="obrigatorio" />
                 </section>
                 <section>
                     <label id="obs-label-cli" for="obs-cli">Observações</label>
