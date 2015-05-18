@@ -19,7 +19,7 @@
                 <section>
                     <label for="cod-cli">Código</label>
                     <input type="text" name="cod-cli" id="cod-cli" class="obrigatorio" autofocus />
-                    <input type="checkbox" name="tipo-cli" id="tipo-cli" style="vertical-align: middle;" value=""/>
+                    <input type="checkbox" name="empresa" id="tipo-cli" style="vertical-align: middle;" value="empresa"/>
                     <label for="tipo-cli">Empresa</label>
                 </section>
                 <section>
@@ -51,9 +51,9 @@
                 </section>
                 <section class="esconder">
                     <label for="ie-cli">I.E.</label>
-                    <input type="text" name="ie-cli" id="ie-cli" class="ie obrigatorio" />
+                    <input type="text" name="ie-cli" id="ie-cli" class="ie" />
                     <label for="cnpj-cli">CNPJ</label>
-                    <input type="text" name="cnpj-cli" id="cnpj-cli" class="cnpj obrigatorio" />
+                    <input type="text" name="cnpj-cli" id="cnpj-cli" class="cnpj" />
                 </section>
                 <section>
                     <label for="endereco-cli">Endereço</label>
@@ -109,5 +109,8 @@
                 <input class="btn-salvar" type="submit" id="salvar-cli" value="Salvar" />
             </form>
         </fieldset>
+        <div class="mensagem-modal">
+        </div>
+        <div class="sobreposicao"></div>
     </div>
 </div>

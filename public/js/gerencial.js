@@ -1,27 +1,43 @@
 // Submit do formulário de cadastro de banco
-$('#frm-cli').submit(function() {
+var cadastraCliente = function(formulario) {
+
+    $(formulario).submit(function() {
     
-    var formulario = $(this);
+        var obrigatorio = $('.obrigatorio');
 
-    var obrigatorio;
+        var conteudo = verificaVazio($(obrigatorio));
 
-    if ( $('#tipo-cli').is(":checked") ) {
-        pessoaJuridica();
-        obrigatorio = $('.obrigatorio');
+    if ( ! conteudo ) {
+    
+        $.ajax({
+            url: '/cadastro/cliente',
+            type: 'POST',
+            data: $('#frm-cli').serialize(),
+            dataType: 'json',
+            success: function( data ) {
+                $('.mensagem-modal').html(
+                    '<div class="icone">' +
+                        '<i class="fa fa-'+data.type+' fa-3x"></i>'+
+                    '</div>' +
+                    '<p>' + data.mensagem + '</p>' +
+                    '<a href="#" class="close">Fechar' + '</a>'
+                );
+                $('.mensagem-modal, .sobreposicao').fadeIn(retiraModal());
+            },
+            complete: function() {
+                limpaCampo();
+                focoText();
+                $('.msg-campo-vazio').fadeOut();
+            },
+            error: function() {
+                alert("Erro ao tentar realizar a operação!");
+            },
+        });
     }
-    else {
-        pessoaFisica();
-        obrigatorio = $('.obrigatorio');
-    }
+        return false;
 
-    var conteudo = verificaVazio($(obrigatorio));
-
-    $(obrigatorio).each( function() {
-        //alert($(this).attr('type'));
     });
-
-    return false;
-});
+};
 
 // Submit do formulário de cadastro de banco
 $('#frm-banco').submit(function() {
@@ -53,7 +69,7 @@ $('#frm-banco').submit(function() {
                 $('.msg-campo-vazio').fadeOut();
             },
             error: function() {
-                alert("Error");
+                alert("Erro ao tentar realizar a operação!");
             },
         });
     }
@@ -119,14 +135,22 @@ var retiraModal = function() {
 
 // checa se o cadastro é cliente pessoa física ou jurídica
 var ativaEmpresa = function() {
+
     var isCheck = $(this).is(":checked");
-    if (isCheck) {
+
+    if ( isCheck ) {        
+        $('#rg-cli, #cpf-cli, #sexo-cli, #data-nasc-cli, #pai-cli, #mae-cli').removeClass('obrigatorio');
+        $('#rg-cli, #cpf-cli, #sexo-cli, #data-nasc-cli, #pai-cli, #mae-cli').removeClass('vazio');
+        $('#ie-cli, #cnpj-cli').addClass('obrigatorio');
         $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
         $('.pode-esconder').fadeOut();
         $('.esconder').fadeIn();
         focoText();
     }
     else {
+        $('#ie-cli, #cnpj-cli').removeClass('obrigatorio');
+        $('#ie-cli, #cnpj-cli').removeClass('vazio');
+        $('#data-nasc-cli, #sexo-cli, #rg-cli, #cpf-cli, #pai-cli, #mae-cli').addClass('obrigatorio');
         $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
         $('.pode-esconder').fadeIn();
         $('.esconder').fadeOut();
@@ -181,7 +205,8 @@ var maskCEP = function(elemento) {
 };
 
 var carregaFuncao = function() {
-    $('#tipo-cli').click(ativaEmpresa);
+    $('#tipo-cli').on('click', ativaEmpresa);
+    $('#salvar-cli').on('click', cadastraCliente('#frm-cli'));
     maskDate('.data');
     maskFone('.fone');
     maskCPF('.cpf');
